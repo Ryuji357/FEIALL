@@ -21,7 +21,7 @@
 
 \usepackage{graphicx} % support the \includegraphics command and options
 
-% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
 
 %%% PACKAGES
 \usepackage{booktabs} % for much better looking tables
@@ -39,8 +39,8 @@
 \lfoot{}\cfoot{\thepage}\rfoot{}
 
 %%% SECTION TITLE APPEARANCE
-\usepackage{sectsty}
-\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+%\usepackage{sectsty}
+%\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
 % (This matches ConTeXt defaults)
 
 %%% ToC (table of contents) APPEARANCE
@@ -53,20 +53,92 @@
 
 %%% The "real" document content comes below...
 
-\title{Brief Article}
-\author{The Author}
+\title{Notas de aula}
+\author{Ryuji}
 %\date{} % Activate to display a given date or no date (if empty),
          % otherwise the current date is printed 
 
 \begin{document}
+
+\pagenumbering{gobble}
 \maketitle
+\newpage
 
-\section{First section}
+\tableofcontents
+\newpage
 
-Your text goes here.
+\pagenumbering{arabic}
 
-\subsection{A subsection}
+\section{Radiovisibilidade}
 
-More text.
+\paragraph{}
 
+\begin{equation}
+RSL = P_{T_{X}} - L_{F_{A}} + G_{A} - L_{b} + G_{B} - L_{F_{B}}
+\end{equation}
+
+\subsection{Perda basica de propagação ($L_b$)}
+
+\paragraph{}
+
+\begin{equation}
+L_{b} = FSL + A_{a} + D_{L}
+\end{equation}
+
+\subsubsection{$FSL$: Free Space Loss}
+
+\paragraph{}
+
+\begin{equation}
+FSL = 92,44 + 20log(f \cdot d)
+\end{equation}
+
+\textbf{Onde:}
+
+$FSL$ - Perda em [dB] \newline
+$f$ - frequencia do sinal em [GHz] \newline
+$d$ - distancia entre as antenas em [Km]
+
+\subsubsection{$A_{a}$: Perda de gases e vapores}
+
+\paragraph{}
+
+\begin{equation}
+A_{a} = {\gamma}_{a} \cdot d
+\end{equation}
+
+\textbf{Onde:}
+
+$\gamma_{a}$ - Da tabela \newline
+$d$ - Distancia entre as antenas em [Km]
+
+\subsubsection{$D_{L}$: Perda por obstaculo (sempre simples)}
+
+\paragraph{}
+
+\begin{equation}
+D_{L} = 0
+\end{equation}
+
+\subsection{Atenuação devido a chuva ($A_{(R, p)}$)}
+
+\paragraph{}
+
+\begin{equation}
+A_{(R, p)} = {\gamma}_{(R, p)} \cdot L_{ef}
+\end{equation}
+
+\subsubsection{${\gamma}_{(R, p)}$: $\gamma$ da chuva}
+
+\paragraph{}
+
+\begin{equation}
+{\gamma}_{(R, p)} = K \cdot R^{\alpha}
+\end{equation}
+
+\textbf{Onde:}
+
+$K$ - Da tabela \newline
+$R$ - Região hidrometereologica (Obtido atraves do mapa) [mm/h] \newline
+$\alpha$ - Da tabela
 \end{document}
