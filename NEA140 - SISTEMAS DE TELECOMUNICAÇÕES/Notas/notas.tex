@@ -49,6 +49,7 @@
 \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
 
+\usepackage{amsmath}
 %%% END Article customizations
 
 %%% The "real" document content comes below...
@@ -128,17 +129,51 @@ D_{L} = 0
 A_{(R, p)} = {\gamma}_{(R, p)} \cdot L_{ef}
 \end{equation}
 
-\subsubsection{${\gamma}_{(R, p)}$: $\gamma$ da chuva}
+\subsection{Qualidade e Disponibilidade}
 
 \paragraph{}
 
 \begin{equation}
-{\gamma}_{(R, p)} = K \cdot R^{\alpha}
+U_{sistema} = U_{v}
+\end{equation}
+
+\begin{equation}
+U_{sistema} = U_{e} + U_{p}
+\end{equation}
+
+\subsubsection{$U_{e}$}
+
+\begin{subequations}
+\begin{align}
+{U}_{e_{(1 + 0)}} & = \frac{MTTR}{MTBF}\\
+{U}_{e_{(1 + 1)}} & = \left ( \frac{MTTR}{MTBF} \right ) ^ 2 \\
+{U}_{e_{(N + M)}} & = \left ( \frac{N! + M!}{N! \cdot (M + 1)!} \right ) \cdot \left ( \frac{MTTR}{MTBF} \right ) ^{(M + 1)}
+\end{align}
+\end{subequations}
+
+\textbf{Onde:}
+
+$MTTR$ - Tempo de reparo \newline
+$MTBF$ - Tempo entre falhas - Datasheet
+
+\subsubsection{$U_{p}$}
+
+\paragraph{}
+
+\begin{equation}
+U_{p} = 0,001\%
+\end{equation}
+
+\subsubsection{$U_{v}$}
+
+\paragraph{}
+
+\begin{equation}
+U_{v} = 100\% - A_{v}
 \end{equation}
 
 \textbf{Onde:}
 
-$K$ - Da tabela \newline
-$R$ - Região hidrometereologica (Obtido atraves do mapa) [mm/h] \newline
-$\alpha$ - Da tabela
+$A_{v}$ - Da tabela
+
 \end{document}
