@@ -7,7 +7,15 @@
 \contentsline {subsubsection}{\numberline {1.1.2}$A_{a}$: Perda de gases e vapores}{1}%
 \contentsline {paragraph}{}{1}%
 \contentsline {subsubsection}{\numberline {1.1.3}$D_{L}$: Perda por obstaculo (sempre simples)}{1}%
+\contentsline {paragraph}{}{1}%
 \contentsline {subsection}{\numberline {1.2}Atenuação devido a chuva ($A_{(R, p)}$)}{1}%
 \contentsline {paragraph}{}{1}%
-\contentsline {subsubsection}{\numberline {1.2.1}${\gamma }_{(R, p)}$: $\gamma $ da chuva}{1}%
-\contentsline {paragraph}{}{1}%
+\contentsline {subsubsection}{\numberline {1.2.1}${\gamma }_{(R, p)}$: $\gamma $ da chuva}{2}%
+\contentsline {paragraph}{}{2}%
+\contentsline {subsection}{\numberline {1.3}Qualidade e Disponibilidade}{2}%
+\contentsline {paragraph}{}{2}%
+\contentsline {subsubsection}{\numberline {1.3.1}$U_{e}$}{2}%
+\contentsline {subsubsection}{\numberline {1.3.2}$U_{p}$}{2}%
+\contentsline {paragraph}{}{2}%
+\contentsline {subsubsection}{\numberline {1.3.3}$U_{v}$}{2}%
+\contentsline {paragraph}{}{2}%
