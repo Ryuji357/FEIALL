@@ -48,17 +48,22 @@ def criar_db():
         contas.write(';'.join([
             'id',
             'nome',
-            ''
+            'cpf',
+            'tipo conta',
+            'senha'
         ]))
 
     # Encerrando
     contas.close()
     trans.close()
 
+def busca_conta(cpf):
+    pass
+
 def inserir(lista, arquivo):
     # Função para inserir linhas nos arquivos
     try:
-        arq = open(arquivo, 'w')
+        arq = open(arquivo, 'a', newline='')
     except FileNotFoundError:
         input('O arquivo não existe.')
         sair()
@@ -82,23 +87,30 @@ def cad_cliente():
     #Valia CPF
     cpf = input('CPF: ')
     while verifica_cpf(cpf) is False:
-        cpf = input('\033[ACPF invalido, digite novamente:')
+        cpf = input('CPF invalido, digite novamente:')
 
     print('Selecione o tipo de conta abaixo:')
     print('1 - Salário')
     print('2 - Comum')
     print('3 - Plus')
     conta = input('Tipo de conta: ')
+    
     valor_ini = round(float(input('Valor inicial: ')))
     senha = input('Senha: ')
 
-    #Salvando os dados.
-    inserir([
-        nome,
-        cpf,
-        conta,
-        sha256(senha.encode()).hexdigest() # Criptografa a senha
-    ], 'contas.txt')
+    c = input('Confirma os dados inseridos acima? [Y/n]')
+
+    if c == 'Y':
+        #Salvando os dados.
+        inserir([
+            nome,
+            cpf,
+            conta,
+            sha256(senha.encode()).hexdigest() # Criptografa a senha
+        ], 'contas.txt')
+        input('Dados salvos, pressione <ENTER>, para retornar ao menu inicial.')
+    else:
+        menu()
     
 def sair():
     input('O programa foi encerrado, pressione <ENTER> para finalizar.')
@@ -111,6 +123,7 @@ def menu():
     }
 
     while True:
+        os.system('cls') # Limpa o console no inicio do loop.
         print('1 - Novo Cliente')
         print('2 - Apaga Cliente')
         print('3 - Debita')
@@ -125,7 +138,6 @@ def menu():
             funcoes[opt]() # Chama função.
         else:
             input('Opção invalida, pressione <ENTER> para retornar ao menu inicial.')
-        os.system('cls') # Limpa o console antes do loop reiniciar.
 
 #%% Auto execute
 if __name__ == '__main__':
