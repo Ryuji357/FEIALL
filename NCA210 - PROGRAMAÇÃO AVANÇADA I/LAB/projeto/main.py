@@ -12,12 +12,62 @@ import csv
 from hashlib import sha256
 from getpass import getpass
 
+#%% Toolbox
+def verifica_cpf(cpf):
+    try: # Se der erro, então o input é invalido
+        n = cpf[:9] # Numero CPF
+        v = cpf[9:] # Digitos verificadores
+    
+        # Calculo doas digitaos verificadores
+        d1 = 0
+        d2 = 0
+        for x in range(8, -1, -1):
+            d = int(cpf[x])
+            d1 += (d*(x+1))
+            d2 += (d*x)
+        d1 = (d1%11)%10
+        d2 = ((d2 + d1*9)%11)%10
+    
+        # Comparação
+        if v == '{}{}'.format(d1, d2):
+            result = True
+        else:
+            result = False
+    except:
+        result = False
+
+    return result
+
+#%% Funções do programa
 def criar_db():
-    contas = open('contas.txt', 'rw+')
-    trans = open('transacoes.txt', 'rw+')
+    # Função para criar os arquivos para salvar
+    contas = open('contas.txt', 'rw+', encoding='utf-8')
+    trans = open('transacoes.txt', 'rw+', encoding='utf-8')
 
     if len(contas.readlines()) > 0:
-        contas.write()
+        contas.write(';'.join([
+            'id',
+            'nome',
+            ''
+        ]))
+
+    # Encerrando
+    contas.close()
+    trans.close()
+
+def inserir(lista, arquivo):
+    # Função para inserir linhas nos arquivos
+    try:
+        arq = open(arquivo, 'w')
+    except FileNotFoundError:
+        input('O arquivo não existe.')
+        sair()
+    arq_csv = csv.writer(arq, delimiter=';', quotechar='"')
+    arq_csv.writerow(lista)
+
+    # Limpando, o del não é muito necessario, mas ta ai.
+    del arq_csv
+    arq.close()
 
 def login():
     cpf = input('Digite seu CPF: ')
@@ -28,26 +78,36 @@ def login():
 def cad_cliente():
     print('Insira os dados solicitados:')
     nome = input('Nome: ')
+
+    #Valia CPF
     cpf = input('CPF: ')
+    while verifica_cpf(cpf) is False:
+        cpf = input('\033[ACPF invalido, digite novamente:')
+
     print('Selecione o tipo de conta abaixo:')
     print('1 - Salário')
     print('2 - Comum')
     print('3 - Plus')
     conta = input('Tipo de conta: ')
-    valor_ini = input('Valor inicial: ')
+    valor_ini = round(float(input('Valor inicial: ')))
     senha = input('Senha: ')
+
+    #Salvando os dados.
+    inserir([
+        nome,
+        cpf,
+        conta,
+        sha256(senha.encode()).hexdigest() # Criptografa a senha
+    ], 'contas.txt')
     
 def sair():
     input('O programa foi encerrado, pressione <ENTER> para finalizar.')
     sys.exit()
 
-if __name__ == '__main__':
-
-    #criar_db()
-
+def menu():
     funcoes = { # Dicionario de funções.
         '0': sair,
-        '1': login
+        '1': cad_cliente
     }
 
     while True:
@@ -66,3 +126,10 @@ if __name__ == '__main__':
         else:
             input('Opção invalida, pressione <ENTER> para retornar ao menu inicial.')
         os.system('cls') # Limpa o console antes do loop reiniciar.
+
+#%% Auto execute
+if __name__ == '__main__':
+
+    #criar_db()
+
+    menu()
