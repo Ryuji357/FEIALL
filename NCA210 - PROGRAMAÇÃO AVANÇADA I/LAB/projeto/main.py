@@ -39,36 +39,7 @@ def verifica_cpf(cpf):
 
     return result
 
-def encontrar(lista, valor):
-    for x in 
-
-#%% Funções do programa
-def criar_db():
-    # Função para criar os arquivos para salvar
-    contas = open('contas.csv', 'w+', encoding='utf-8')
-    trans = open('transacoes.csv', 'w+', encoding='utf-8')
-
-    if len(contas.readlines()) > 0:
-        contas.write(';'.join([
-            'id',
-            'nome',
-            'cpf',
-            'tipo conta',
-            'senha'
-        ]))
-    if len(trans.readlines()) > 0:
-        trans.write(';'.join([
-            'id',
-            'id_conta',
-            'cpf',
-            'tipo conta',
-            'senha'
-        ]))
-
-    # Encerrando
-    contas.close()
-    trans.close()
-
+#%% Buscas
 def listar_conta():
     try:
         result = {
@@ -90,6 +61,51 @@ def listar_conta():
     except FileNotFoundError:
         input('O arquivo não existe.')
         sair()
+
+def login():
+
+    listagem = listar_conta()
+
+    cpf = 'Por favor, insira o CPF: '
+    if not cpf in listagem['cpf']:
+        input('Este CPF não esta cadastrado, precione <ENTER>, para retornar ao menu inicial.')
+        return False
+
+    senha = sha256(input('Insira a senha: ').encode()).hexdigest()
+
+    if senha == listagem['senha'][listagem['cpf'].index(cpf)]:
+        return True
+    return False
+
+def extrato():
+    pass
+
+#%% Funções do programa
+def criar_db():
+    # Função para criar os arquivos para salvar
+    contas = open('contas.csv', 'w+', encoding='utf-8')
+    trans = open('transacoes.csv', 'w+', encoding='utf-8')
+
+    if not len(contas.readlines()) > 0:
+        contas.write(';'.join([
+            'id',
+            'nome',
+            'cpf',
+            'tipo conta',
+            'senha'
+        ]))
+    if not len(trans.readlines()) > 0:
+        trans.write(';'.join([
+            'id',
+            'id_conta',
+            'cpf',
+            'tipo conta',
+            'senha'
+        ]))
+
+    # Encerrando
+    contas.close()
+    trans.close()
 
 def inserir(lista, arquivo):
     # Função para inserir linhas nos arquivos
@@ -183,6 +199,6 @@ def menu():
 #%% Auto execute
 if __name__ == '__main__':
 
-    #criar_db()
+    criar_db()
 
     menu()
