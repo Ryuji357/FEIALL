@@ -8,6 +8,7 @@ Created on Wed Oct  7 21:19:39 2020
 import os
 import sys
 import csv
+import numpy as np
 
 from hashlib import sha256
 from getpass import getpass
@@ -38,11 +39,14 @@ def verifica_cpf(cpf):
 
     return result
 
+def encontrar(lista, valor):
+    for x in 
+
 #%% Funções do programa
 def criar_db():
     # Função para criar os arquivos para salvar
-    contas = open('contas.txt', 'rw+', encoding='utf-8')
-    trans = open('transacoes.txt', 'rw+', encoding='utf-8')
+    contas = open('contas.csv', 'w+', encoding='utf-8')
+    trans = open('transacoes.csv', 'w+', encoding='utf-8')
 
     if len(contas.readlines()) > 0:
         contas.write(';'.join([
@@ -52,18 +56,45 @@ def criar_db():
             'tipo conta',
             'senha'
         ]))
+    if len(trans.readlines()) > 0:
+        trans.write(';'.join([
+            'id',
+            'id_conta',
+            'cpf',
+            'tipo conta',
+            'senha'
+        ]))
 
     # Encerrando
     contas.close()
     trans.close()
 
-def busca_conta(cpf):
-    pass
+def listar_conta():
+    try:
+        result = {
+            'id': [],
+            'nome': [],
+            'cpf': [],
+            'tipo': [],
+            'senha': []
+        }
+        with open('contas.txt', 'w', encoding='utf-8') as arquivo:
+            linhas = next(csv.reader(arquivo, delimiter=';', quotechar='"'))
+            for x in linhas:
+                result['id'].append(x[0])
+                result['nome'].append(x[1])
+                result['cpf'].append(x[2])
+                result['tipo'].append(x[3])
+                result['senha'].append(x[4])
+        return result
+    except FileNotFoundError:
+        input('O arquivo não existe.')
+        sair()
 
 def inserir(lista, arquivo):
     # Função para inserir linhas nos arquivos
     try:
-        arq = open(arquivo, 'a', newline='')
+        arq = open(arquivo, 'a', newline='', encoding='utf-8')
     except FileNotFoundError:
         input('O arquivo não existe.')
         sair()
@@ -81,6 +112,10 @@ def login():
     input()
 
 def cad_cliente():
+
+    listagem = listar_conta()
+    id_cliente = max(listagem, default=1)
+
     print('Insira os dados solicitados:')
     nome = input('Nome: ')
 
@@ -88,6 +123,11 @@ def cad_cliente():
     cpf = input('CPF: ')
     while verifica_cpf(cpf) is False:
         cpf = input('CPF invalido, digite novamente:')
+
+    # Verifica se CPF ja existe
+    if cpf in listagem['cpf']:
+        input('Esse CPF já foi cadastrado, precione <ENTER> para retornar ao menu principal.')
+        return # Encerra função
 
     print('Selecione o tipo de conta abaixo:')
     print('1 - Salário')
@@ -107,10 +147,11 @@ def cad_cliente():
             cpf,
             conta,
             sha256(senha.encode()).hexdigest() # Criptografa a senha
-        ], 'contas.txt')
+        ], 'contas.csv')
         input('Dados salvos, pressione <ENTER>, para retornar ao menu inicial.')
     else:
-        menu()
+        input('Operação cancelada, pressione <ENTER>')
+        return # Encerra a função
     
 def sair():
     input('O programa foi encerrado, pressione <ENTER> para finalizar.')
