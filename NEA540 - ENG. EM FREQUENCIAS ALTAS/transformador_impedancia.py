@@ -51,7 +51,16 @@ class transformador:
 
 def calculo_n(f, alpha, zc, zo):
     z = abs((zc-zo)/(zc+zo))
-    return math.log(alpha/z, 2)/(math.log(2*math.cos((2 - f)*(math.pi/4)), 2) - 1)
+    b = math.log(alpha/(z), 2)
+    c = -(1 + math.log(math.cos((2-f*math.pi)/4), 2))
+    delta = b**2 - 4*c
+    n1 = (-b+(delta**0.5))/2
+    n2 = (-b-(delta**0.5))/2
+    return n1, n2
+
+def calculo_n2(n, alpha, zc, zo):
+    a = abs((2**-n)*(zc-zo)/(zc+zo))
+    return 2 - (4/math.pi)*math.acos(0.5*(alpha/a)**n)
 
 zc = 30
 zo = 50
@@ -64,7 +73,7 @@ print(calculo_n(f, alpha, zc, zo))
 teste = transformador()
 teste.z_gerador = zo
 teste.z_carga = zc
-teste.secoes = 5
+teste.secoes = 4
 
 
 '''
