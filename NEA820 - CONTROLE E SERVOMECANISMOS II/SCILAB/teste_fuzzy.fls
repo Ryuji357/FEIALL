@@ -1,0 +1,77 @@
+# sciFLT scilab Fuzzy Logic Toolbox
+<REVISION>
+ <revision>@REV@
+
+<DESCRIPTION>
+ <name>Teste
+ <comment>NewComment
+ <type>m
+ <SNorm>max
+ <SNormPar>0
+ <TNorm>min
+ <TNormPar>0
+ <Comp>one
+ <CompPar>0
+ <ImpMethod>min
+ <AggMethod>max
+ <defuzzMethod>centroide
+
+<INPUT>
+ <name>ERRO
+ <range>-5 5
+  <mf_name>NEG
+   <mf_type>trimf
+   <mf_par>-7.5 -5.0 -2.5
+  <mf_name>MEIO_NEG
+   <mf_type>trimf
+   <mf_par>-5.0 -2.5 0.0
+  <mf_name>NULO
+   <mf_type>trimf
+   <mf_par>-2.5 0.0 2.5
+  <mf_name>MEIO_POS
+   <mf_type>trimf
+   <mf_par>0.0 2.5 5.0
+  <mf_name>POS
+   <mf_type>trimf
+   <mf_par>2.5 5.0 7.5
+
+ <name>VELOCIDADE
+ <range>-5 5
+  <mf_name>NEG
+   <mf_type>trimf
+   <mf_par>-10.0 -5.0 0.0
+  <mf_name>NULO
+   <mf_type>trimf
+   <mf_par>-5.0 0.0 5.0
+  <mf_name>POS
+   <mf_type>trimf
+   <mf_par>0.0 5.0 10.0
+
+<OUTPUT>
+ <name>U_mtr
+ <range>0 1
+  <mf_name>NEG
+   <mf_type>trimf
+   <mf_par>-0.25 0.0 0.25
+  <mf_name>MEIO_NEG
+   <mf_type>trimf
+   <mf_par>0.0 0.25 0.5
+  <mf_name>NULO
+   <mf_type>trimf
+   <mf_par>0.25 0.5 0.75
+  <mf_name>MEIO_POS
+   <mf_type>trimf
+   <mf_par>0.5 0.75 1.0
+  <mf_name>POS
+   <mf_type>trimf
+   <mf_par>0.75 1.0 1.25
+
+<RULE>
+1 0 1 1 1.0
+2 0 2 1 1.0
+3 0 3 1 1.0
+4 0 4 1 1.0
+5 0 5 1 1.0
+3 1 4 1 1.0
+3 3 2 1 1.0
+
