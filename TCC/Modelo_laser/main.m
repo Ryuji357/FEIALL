@@ -6,7 +6,7 @@ w = 810; # Comprimento de onda [nm]
 i = 1; # Corrente [A]
 
 # Parametros do sistema
-d = 0:100:50000; # Distancia [m]
+d = 0:1:100; # Distancia [m]
 
 # Parametros da atmosfera
 capa = 10; # Visibilidade (6km<capa<50km para ar limpo) [km]
