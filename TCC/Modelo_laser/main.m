@@ -3,10 +3,15 @@ clc;
 
 # Parametros do laser
 w = 810; # Comprimento de onda [nm]
-i = 1; # Corrente [A]
+p_l = 5 # Potencia de saída do laser [w]
+v_i = 5 # Tensão de entrada [V]
+i_i = 1; # Corrente [A]
+
+p_i = v_i*i_i # Potencia consumida laser [w]
+n_el = p_l/p_i # Eficiencia do laser
 
 # Parametros do sistema
-d = 0:100:50000; # Distancia [m]
+d = 0:1:100; # Distancia [m]
 
 # Parametros da atmosfera
 capa = 10; # Visibilidade (6km<capa<50km para ar limpo) [km]
@@ -26,3 +31,4 @@ n_tra = exp(-alfa*d/1000);
 
 plot(d, n_tra);
 grid;
+

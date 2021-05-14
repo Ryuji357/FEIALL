@@ -28,8 +28,6 @@ qui = 550 # [nm]
 alfa = (sigma/capa)*((w/qui)**(-ro))
 n_tra = math.exp(-alfa*d/1000)
 
-
-
 # Eficiencia do sistema
 n_o = n_el*n_tra
 
