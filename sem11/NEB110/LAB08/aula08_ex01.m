@@ -8,7 +8,8 @@ f_c = 1e3; # Frequencia de corte [Hz]
 h = passa_baixa(deltaf, f_c, f_s);
 
 cont = 1;
-for f = 0:10:7990
+freq = 0:10:7990;
+for f = freq,
   n = 0:999;
   x = cos(2*pi*f*n/f_s);
   y = conv(x, h);
@@ -17,7 +18,9 @@ for f = 0:10:7990
 endfor
 
 figure(1);
-plot(0:10:7990, H);
+plot(freq, H);
+xlabel('frequencia [Hz]')
+xlabel('|H| [dB]')
 
 # Confirmação do resultado
 H2 = 20*log10(abs(fft(h, cont)));
