@@ -1,3 +1,3 @@
-function lambda = servico(sinal)
-  
+function lambda = servico(sinal, fs)
+  lambda = 0;
 endfunction

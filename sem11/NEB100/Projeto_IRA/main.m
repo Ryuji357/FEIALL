@@ -19,25 +19,39 @@ function aperta(ObjH, eventdata, tecla)
   % Transformada de Fourrier para o sinal (Verificação)
   #figure(1, 'name', 'FFT', 'numbertitle', 'off');
   #stem(1:(8000/length(sinal)):8000, abs(fft(sinal)), '.');
+
+  % Call servico
+  servico(sinal, fs);
 endfunction
 
 % GUI
-MainFrm = figure(2, 'name', 'Teclado', 'numbertitle', 'off');
+MainFrm = figure(2, 'name', 'DTMF', 'numbertitle', 'off');
 
 % Container de texto
 texto = uipanel(MainFrm, ...
   'units', 'normalized', ...
   'position', [0, 0.5, 1, 0.5]);
 
-uicontrol(texto, ...
+txt_frm = uicontrol(texto, ...
   'style', 'text', ...
   'string', '', ...
   'verticalalignment', 'top');
 
+% Conteiner plot
+grafico = uipanel(MainFrm, ...
+  'units', 'normalized', ...
+  'position', [0.5, 0, 0.6, 0.5]);
+
+subplot(2, 1, 1);
+plot([1, 2, 3]);
+
+subplot(2, 1, 2);
+plot([3, 2, 1]);
+
 % Conteiner teclado
 teclado = uipanel(MainFrm, ...
   'units', 'normalized', ...
-  'position', [0.3, 0, 0.4, 0.5]);
+  'position', [0, 0, 0.4, 0.5]);
 
 uicontrol(teclado, ...
   'style', 'pushbutton', ...
