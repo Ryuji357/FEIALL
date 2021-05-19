@@ -24,7 +24,7 @@ function lambda = dtmf_gen(tecla, fs)
   #fs = 8000;
   t = 0:1/fs:0.3;
 
-  lambda = (sin(2*pi*fb(lista(tecla + 1, 1)).*t) + sin(2*pi*fg(lista(tecla + 1, 2)).*t))/2;
+  lambda = (sin(2*pi*fg(lista(tecla + 1, 1)).*t) + sin(2*pi*fb(lista(tecla + 1, 2)).*t))/2;
   #lambda = sin(2*pi*697.*t) + sin(2*pi*1477.*t);
 endfunction
 
