@@ -17,7 +17,7 @@ function aperta(ObjH, eventdata, tecla, txt_frm, g1, g2)
   playblocking(audioplayer(sinal, fs, 24));
 
   % Transformada de Fourrier para o sinal (Verificação)
-  #figure(1, 'name', 'FFT', 'numbertitle', 'off');
+  #figure([], 'name', 'FFT', 'numbertitle', 'off');
   #stem(1:(8000/length(sinal)):8000, abs(fft(sinal)), '.');
 
   % Inserindo dados nos gráficos
@@ -34,8 +34,8 @@ function aperta(ObjH, eventdata, tecla, txt_frm, g1, g2)
   set(txt_frm, 'string', servico(sinal, fs));
 endfunction
 
-% GUI
-MainFrm = figure(2, 'name', 'DTMF', 'numbertitle', 'off');
+% GUI janela
+MainFrm = figure(1, 'name', 'DTMF', 'numbertitle', 'off');
 
 % Container de texto
 texto = uipanel(MainFrm, ...
@@ -49,8 +49,7 @@ txt_frm = uicontrol(texto, ...
   'horizontalalignment', 'left', ...
   'units', 'normalized', ...
   'position', [0, 0, 1, 1], ...
-  'backgroundcolor', [1 1 1], ...
-  'userdata', 1);
+  'backgroundcolor', [1 1 1]);
 
 set(txt_frm, 'string', 'DTFM Sim');
 

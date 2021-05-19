@@ -1,5 +1,5 @@
-function lambda = filtro_detecta_faixa(sinal, fl, fh, sensibilidade)
-  
+function lambda = filtro_detecta_faixa(sinal, f, f_d, f_s, sensibilidade)
+  lambda = passa_baixa(f_d, f, f_s);
 endfunction
 
 function lambda = passa_baixa(deltaf, fc, fs)
@@ -10,5 +10,5 @@ function lambda = passa_baixa(deltaf, fc, fs)
   endif
   x = -((n-1)/2):1:((n-1)/2);
   x(x==0) = 10e-10;
-  lambda  = sin(x*2*pi*fc/fs)./(pi*x);
+  lambda = sin(x*2*pi*fc/fs)./(pi*x);
 endfunction
