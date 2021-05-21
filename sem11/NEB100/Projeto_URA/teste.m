@@ -7,18 +7,19 @@ fs = 8000;
 t = 0:1/fs:0.3;
 
 freq = 0:10:8000;
-cont = 1;
-for f=freq
-  sinal = sin(2*pi*f.*t);
 
-  result = filtro_detecta_faixa(sinal, 500, 400, fs, 0);
-  y = conv(sinal, result);
+#cont = 1;
+#for f = freq,
+#  sinal = sin(f*2*pi.*t);
+#  result(cont) = filtro_detecta_faixa(sinal, 500, 1000, 400, fs, 0.1);
+#  cont = cont + 1;
+#endfor
 
-  H(cont) = max(y);
-  cont = cont + 1;
-endfor
+f = 1477;
+sinal = sin(f*2*pi.*t);
+filtro_detecta_faixa(sinal, 1300, 1400, 50, fs, 0.1)
 
-freqz(filtro_detecta_faixa(f, 900, 0, fs, 0), 1, 512, fs);
+#plot(freq, result);
 
 #figure(1);
 #plot(freq, H);
