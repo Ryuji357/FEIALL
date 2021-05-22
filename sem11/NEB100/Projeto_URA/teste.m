@@ -1,12 +1,12 @@
 #close all;
-clear;
-clc;
+#clear;
+#clc;
 
 #f = 100;
-fs = 8000;
-t = 0:1/fs:0.3;
+#fs = 8000;
+#t = 0:1/fs:0.3;
 
-freq = 0:10:8000;
+#freq = 0:10:8000;
 
 #cont = 1;
 #for f = freq,
@@ -15,9 +15,9 @@ freq = 0:10:8000;
 #  cont = cont + 1;
 #endfor
 
-f = 1477;
-sinal = sin(f*2*pi.*t);
-filtro_detecta_faixa(sinal, 1300, 1400, 50, fs, 0.1)
+#f = 1477;
+#sinal = sin(f*2*pi.*t);
+#filtro_detecta_faixa(sinal, 1300, 1400, 50, fs, 0.1)
 
 #plot(freq, result);
 
@@ -30,3 +30,7 @@ filtro_detecta_faixa(sinal, 1300, 1400, 50, fs, 0.1)
 
 #subplot(2, 1, 2);
 #plot(y);
+
+fs = 8000;
+sinal = dtmf_gen(1, fs);
+x = filtro_detecta_faixa(sinal, 1300, 1400, 50, fs, 0.1);
