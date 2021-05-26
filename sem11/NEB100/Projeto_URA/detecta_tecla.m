@@ -22,30 +22,30 @@ function lambda = detecta_tecla(sinal, fs)
     '01000010'
     '00100010'
     '01000001'
-    '00011000'
-    '00010010'
+    '10000001'
+    '00100001'
     '00011000'
     '00010100'
     '00010010'
     '00010001'
   ];
   tecla2 = [
-    '1'
-    '2'
-    '3'
-    '4'
-    '5'
-    '6'
-    '7'
-    '8'
-    '9'
-    '0'
-    '*'
-    '#'
-    'A'
-    'B'
-    'C'
-    'D'
+    49
+    50
+    51
+    52
+    53
+    54
+    55
+    56
+    57
+    48
+    120
+    104
+    65
+    66
+    67
+    68
   ];
 
   codigo = [''];
@@ -57,8 +57,8 @@ function lambda = detecta_tecla(sinal, fs)
     codigo = [codigo int2str(filtro_detecta_faixa(sinal, f-50, f+50, 50, fs, 0.1))];
   endfor
 
-  disp(tecla1==codigo);
-  lambda = tecla2(tecla1==codigo);
+  #disp(index(tecla1, codigo));
+  lambda = tecla2(index(tecla1, codigo) == 1);
 endfunction
 
 function lambda = filtro_detecta_faixa(sinal, f_1, f_2, f_d, f_s, sensibilidade)

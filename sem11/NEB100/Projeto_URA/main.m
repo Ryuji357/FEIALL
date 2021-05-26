@@ -1,6 +1,7 @@
 close all;
 clear;
 clc;
+clear global; #Limpa variavel global
 
 function aperta(ObjH, eventdata, tecla, txt_frm, g1, g2)
 
@@ -51,7 +52,7 @@ txt_frm = uicontrol(texto, ...
   'position', [0, 0, 1, 1], ...
   'backgroundcolor', [1 1 1]);
 
-set(txt_frm, 'string', 'DTFM Sim');
+set(txt_frm, 'string', 'URASim');
 
 % Conteiner plot
 grafico = uipanel(MainFrm, ...
