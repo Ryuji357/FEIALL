@@ -1,0 +1,2 @@
+% Se o arquivo não existir retorna 0% Variavel tipo determina se retorna apenas a primeira linha (Sem o primeiro%caractere) ou se retorna o resto do textofunction lambda = ler_arquivo(caminho, tipo=false)  if (exist(caminho)==0)    lambda = 0;  else    temp = fileread(caminho);    #lambda = temp;    i = strfind(temp, char([13 10]))(1);    if tipo      lambda = temp(2:i-1);    else      lambda = temp(i + 2:end);    endif  endif
+endfunction

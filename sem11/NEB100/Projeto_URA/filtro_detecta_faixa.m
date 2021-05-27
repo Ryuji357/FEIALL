@@ -1,32 +1,4 @@
-function lambda = detecta_tecla(sinal, fs)
-  fh = [
-    1209
-    1336
-    1477
-    1633
-  ];
-  fl = [
-    697
-    770
-    852
-    941
-  ];
-
-  i = 1;
-  for f = fh',
-    r1(i) = filtro_detecta_faixa(sinal, f-50, f+50, 50, fs, 0.1);
-    i = i + 1;
-  endfor
-
-  i = 1;
-  for f = fl'
-    r2(i) = filtro_detecta_faixa(sinal, f-50, f+50, 50, fs, 0.1);
-    i = i + 1;
-  endfor
-
-  lambda = strcat(erase(int2str(r1), ' '), ' ', erase(int2str(r2), ' '));
-endfunction
-
+#{
 function lambda = filtro_detecta_faixa(sinal, f_1, f_2, f_d, f_s, sensibilidade)
   h = conv(passa_baixa(f_d, f_2, f_s), passa_alta(f_d, f_1, f_s));
   s_f = conv(sinal, h); #Sinal filtrado
@@ -35,6 +7,11 @@ function lambda = filtro_detecta_faixa(sinal, f_1, f_2, f_d, f_s, sensibilidade)
   else
     lambda = false;
   endif
+endfunction
+#}
+
+function lambda = filtro_detecta_faixa(f_1, f_2, f_d, f_s)
+  lambda = conv(passa_baixa(f_d, f_2, f_s), passa_alta(f_d, f_1, f_s));
 endfunction
 
 function lambda = passa_baixa(deltaf, fc, fs)

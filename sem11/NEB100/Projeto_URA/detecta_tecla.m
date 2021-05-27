@@ -1,4 +1,4 @@
-function lambda = detecta_tecla(sinal, fs)
+function lambda = detecta_tecla(sinal, fs, sensibilidade)
   fh = [
     1209
     1336
@@ -50,11 +50,11 @@ function lambda = detecta_tecla(sinal, fs)
 
   codigo = [''];
   for f = fh',
-    codigo = [codigo int2str(filtro_detecta_faixa(sinal, f-50, f+50, 50, fs, 0.1))];
+    codigo = [codigo int2str(filtro_detecta_faixa(sinal, f-50, f+50, 50, fs, sensibilidade))];
   endfor
 
   for f = fl'
-    codigo = [codigo int2str(filtro_detecta_faixa(sinal, f-50, f+50, 50, fs, 0.1))];
+    codigo = [codigo int2str(filtro_detecta_faixa(sinal, f-50, f+50, 50, fs, sensibilidade))];
   endfor
 
   #disp(index(tecla1, codigo));
@@ -62,13 +62,17 @@ function lambda = detecta_tecla(sinal, fs)
 endfunction
 
 function lambda = filtro_detecta_faixa(sinal, f_1, f_2, f_d, f_s, sensibilidade)
-  h = conv(passa_baixa(f_d, f_2, f_s), passa_alta(f_d, f_1, f_s));
+  h = passa_faixa(f_1, f_2, f_d, f_s);
   s_f = conv(sinal, h); #Sinal filtrado
   if (mean(abs(s_f))>=sensibilidade)
     lambda = true;
   else
     lambda = false;
   endif
+endfunction
+
+function lambda = passa_faixa(f_1, f_2, f_d, f_s)
+  lambda = conv(passa_baixa(f_d, f_2, f_s), passa_alta(f_d, f_1, f_s));
 endfunction
 
 function lambda = passa_baixa(deltaf, fc, fs)

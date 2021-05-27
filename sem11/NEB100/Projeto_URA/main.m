@@ -3,36 +3,48 @@ clear;
 clc;
 clear global; #Limpa variavel global
 
-function aperta(ObjH, eventdata, tecla, txt_frm, g1, g2)
+function aperta(ObjH, eventdata, tecla, txt_frm, g11, g12, g21, g22)
 
   #disp(tecla)
 
   % Call DTMF
   fs = 8000; # Frequencia de amostragem [Hz]
-  sinal = dtmf_gen(tecla, fs);
+  sinal_out = dtmf_gen(tecla, fs);
+
+  % Adiciona ruido
+  sinal_in = sinal_out + 0.5 * randn(size(sinal_out));
+  sinal_in = sinal_in/max(abs(sinal_in)); #Normalizando o sinal
 
   % Grava audio
   #audiowrite('sinal.wav', sinal, fs);
 
   % Toca audio
-  playblocking(audioplayer(sinal, fs, 24));
+  playblocking(audioplayer(sinal_out, fs, 24));
 
   % Transformada de Fourrier para o sinal (Verificação)
   #figure([], 'name', 'FFT', 'numbertitle', 'off');
   #stem(1:(8000/length(sinal)):8000, abs(fft(sinal)), '.');
 
-  % Inserindo dados nos gráficos
-  l = length(sinal);
+  %% Inserindo dados nos gráficos
+  l = length(sinal_out);
   x = 0:1/8000:l/fs;
   x(end) = [];
-  set(g1, 'xdata', x);
-  set(g1, 'ydata', sinal);
-  set(g2, 'xdata', 1:(fs/length(sinal)):fs);
-  set(g2, 'ydata', abs(fft(sinal)));
+
+  % Gráficos de saida
+  set(g11, 'xdata', x);
+  set(g11, 'ydata', sinal_out);
+  set(g12, 'xdata', 1:(fs/length(sinal_out)):fs);
+  set(g12, 'ydata', abs(fft(sinal_out)));
+
+  % Gráficos de entrada
+  set(g21, 'xdata', x);
+  set(g21, 'ydata', sinal_in);
+  set(g22, 'xdata', 1:(fs/length(sinal_in)):fs);
+  set(g22, 'ydata', abs(fft(sinal_in)));
 
   % Call servico
   #texto = char([get(txt_frm, 'string'), 10, servico(sinal, fs)]);
-  set(txt_frm, 'string', servico(sinal, fs));
+  set(txt_frm, 'string', servico(sinal_in, fs));
 endfunction
 
 % GUI janela
@@ -41,7 +53,7 @@ MainFrm = figure(1, 'name', 'DTMF', 'numbertitle', 'off');
 % Container de texto
 texto = uipanel(MainFrm, ...
   'units', 'normalized', ...
-  'position', [0, 0.5, 1, 0.5]);
+  'position', [0.3, 0, 0.7, 0.5]);
 
 txt_frm = uicontrol(texto, ...
   'style', 'text', ...
@@ -52,24 +64,45 @@ txt_frm = uicontrol(texto, ...
   'position', [0, 0, 1, 1], ...
   'backgroundcolor', [1 1 1]);
 
-set(txt_frm, 'string', 'URASim');
-
-% Conteiner plot
-grafico = uipanel(MainFrm, ...
+% Conteiner plot 1
+grafico1 = uipanel(MainFrm, ...
+  'title', 'Sinal saída', ...
   'units', 'normalized', ...
-  'position', [0.3, 0, 0.7, 0.5]);
+  'position', [0, 0.5, 0.5, 0.5]);
 
-#Setando Grafico 1
-subplot(2, 1, 1, 'parent', grafico);
-g1 = plot([1], 'marker', 'none');
+#Setando Grafico 11
+subplot(2, 1, 1, 'parent', grafico1);
+g11 = plot([1], 'marker', 'none');
 title('Sinal');
 xlabel('Tempo [s]');
 grid on;
 grid minor on;
 
-#Setando Grafico 2
-subplot(2, 1, 2, 'parent', grafico);
-g2 = plot([1], 'marker', 'none');
+#Setando Grafico 12
+subplot(2, 1, 2, 'parent', grafico1);
+g12 = plot([1], 'marker', 'none');
+title('Sinal (FFT)');
+xlabel('Frequencia [Hz]');
+grid on;
+grid minor on;
+
+% Conteiner plot 2
+grafico2 = uipanel(MainFrm, ...
+  'title', 'Sinal entrada', ...
+  'units', 'normalized', ...
+  'position', [0.5, 0.5, 0.5, 0.5]);
+
+#Setando Grafico 21
+subplot(2, 1, 1, 'parent', grafico2);
+g21 = plot([1], 'marker', 'none');
+title('Sinal');
+xlabel('Tempo [s]');
+grid on;
+grid minor on;
+
+#Setando Grafico 22
+subplot(2, 1, 2, 'parent', grafico2);
+g22 = plot([1], 'marker', 'none');
 title('Sinal (FFT)');
 xlabel('Frequencia [Hz]');
 grid on;
@@ -80,6 +113,45 @@ teclado = uipanel(MainFrm, ...
   'units', 'normalized', ...
   'position', [0, 0, 0.3, 0.5]);
 
+#Codigo ascii do caractere|indice|cor
+teclas = [
+  49 1 [0.90980 0.90980 0.90588]
+  50 2 [0.90980 0.90980 0.90588]
+  51 3 [0.90980 0.90980 0.90588]
+  65 12 [242/255 165/255 165/255]
+  52 4 [0.90980 0.90980 0.90588]
+  53 5 [0.90980 0.90980 0.90588]
+  54 6 [0.90980 0.90980 0.90588]
+  66 13 [242/255 165/255 165/255]
+  55 7 [0.90980 0.90980 0.90588]
+  56 8 [0.90980 0.90980 0.90588]
+  57 9 [0.90980 0.90980 0.90588]
+  67 14 [242/255 165/255 165/255]
+  42 10 [153/255 190/255 255/255]
+  48 0 [0.90980 0.90980 0.90588]
+  35 11 [153/255 190/255 255/255]
+  68 15 [242/255 165/255 165/255]
+];
+
+for i = 1:1:16,
+  d = i/4;
+  m = ceil(d)-1;
+  uicontrol(teclado, ...
+    'style', 'pushbutton', ...
+    'backgroundcolor', [teclas(i, 3) teclas(i, 4) teclas(i, 5)], ...
+    'string', char(teclas(i, 1)), ...
+    'units', 'normalized', ...
+    'position', [d-m-0.25, 0.75-(m*0.25), 0.25, 0.25], ...
+    'callback', {@aperta, teclas(i, 2), txt_frm, g11, g12, g21, g22});
+endfor
+
+set(txt_frm, 'string', 'URASim'); #Indica sistema pronto
+
+% Limpeza
+clear teclas t i m d; #Limpa variaveis de construção do teclado
+clear MainFrm grafico1 grafico2 texto; # Limpa variaveis de construção iu
+
+#{
 uicontrol(teclado, ...
   'style', 'pushbutton', ...
   'string', '1', ...
@@ -198,3 +270,4 @@ uicontrol(teclado, ...
   'position', [0.75, 0, 0.25, 0.25], ...
   'backgroundcolor', [242/255 165/255 165/255], ...
   'callback', {@aperta, 15, txt_frm, g1, g2});
+}#
