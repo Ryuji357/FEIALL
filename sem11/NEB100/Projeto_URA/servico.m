@@ -33,7 +33,7 @@ endfunction
 function lambda = servico(sinal, fs)
   global historico = '@';
   raiz = 'roteiro/';
-  tecla = detecta_tecla(sinal, fs, 0.5);
+  tecla = detecta_tecla(sinal, fs, 0.3);
 
   if (historico == '@') #Primeira execução
     lambda = ler_arquivo([raiz '_start.txt']);
@@ -55,7 +55,7 @@ function lambda = servico(sinal, fs)
         lambda = ler_arquivo([raiz historico char(tecla) '.txt']);
         historico = '$';
       elseif strcmpi(tipo, 'return') #Retorno
-        hitorico(end) = [];
+        historico(end) = [];
         lambda = ler_arquivo([raiz historico '.txt']);
       else
         historico = [historico char(tecla)];

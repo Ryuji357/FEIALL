@@ -13,7 +13,7 @@ function aperta(ObjH, eventdata, tecla, txt_frm, g11, g12, g21, g22)
 
   % Adiciona ruido
   sinal_in = sinal_out + 0.5 * randn(size(sinal_out));
-  sinal_in = sinal_in/max(abs(sinal_in)); #Normalizando o sinal
+  #sinal_in = sinal_in/max(abs(sinal_in)); #Normalizando o sinal
 
   % Grava audio
   #audiowrite('sinal.wav', sinal, fs);

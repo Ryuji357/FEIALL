@@ -1,2 +1,5 @@
 #normal
-um
+Você selecionou a opção de suporte tecnico.
+Aperte 1 para falar com o técnico.
+Aperte 2 para eletronicos.
+Aperte 3 para carro.

@@ -1,3 +1,5 @@
 #normal
-Olá sou $!%#, estou aqui para ajudar.
-Aperte 1 para começar.
+Olá sou "O telefone", estou aqui para ajudar.
+Aperte 1 para suporte tecnico.
+Aperte 2 para falar sobre contrato.
+Aperte 3 para vendas.
