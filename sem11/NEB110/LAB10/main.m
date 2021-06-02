@@ -16,7 +16,7 @@ y2 = y2(1:length(x));
 figure(1);
 hold on;
 stem(x, '.');
-#plot(x);
+%plot(x);
 plot(y1);
 plot(y2);
 title('Casos novos no Brasil e médias moveis em dias');
