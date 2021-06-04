@@ -1,0 +1,48 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{clear}\PYG{p}{;}
+\PYG{n+nb}{clc}\PYG{p}{;}
+
+\PYG{c}{\PYGZsh{} luz solar}
+\PYG{n}{dp} \PYG{p}{=} \PYG{l+m+mf}{136.7}\PYG{p}{;} \PYG{c}{\PYGZsh{} mW/mm2}
+
+\PYG{c}{\PYGZsh{} Parametros do laser}
+\PYG{n}{w} \PYG{p}{=} \PYG{l+m+mi}{0}\PYG{p}{:}\PYG{l+m+mi}{100}\PYG{p}{:}\PYG{l+m+mi}{100000}\PYG{p}{;} \PYG{c}{\PYGZsh{} Comprimento de onda [nm]}
+\PYG{n}{p\PYGZus{}l} \PYG{p}{=} \PYG{l+m+mi}{25}\PYG{p}{;} \PYG{c}{\PYGZsh{} Potencia de saída do laser [w]}
+\PYG{n}{v\PYGZus{}i} \PYG{p}{=} \PYG{l+m+mi}{8}\PYG{p}{;} \PYG{c}{\PYGZsh{} Tensão de entrada [V]}
+\PYG{n}{i\PYGZus{}i} \PYG{p}{=} \PYG{l+m+mf}{9.5}\PYG{p}{;} \PYG{c}{\PYGZsh{} Corrente [A]}
+
+\PYG{n}{p\PYGZus{}i} \PYG{p}{=} \PYG{n}{v\PYGZus{}i}\PYG{o}{*}\PYG{n}{i\PYGZus{}i}\PYG{p}{;} \PYG{c}{\PYGZsh{} Potencia consumida laser [w]}
+\PYG{n}{n\PYGZus{}el} \PYG{p}{=} \PYG{n}{p\PYGZus{}l}\PYG{o}{/}\PYG{n}{p\PYGZus{}i}\PYG{p}{;} \PYG{c}{\PYGZsh{} Eficiencia do laser}
+
+\PYG{c}{\PYGZsh{} Parametros do sistema}
+\PYG{n}{d} \PYG{p}{=} \PYG{l+m+mi}{0}\PYG{p}{:}\PYG{l+m+mi}{1}\PYG{p}{:}\PYG{l+m+mi}{100}\PYG{p}{;} \PYG{c}{\PYGZsh{} Distancia [m]}
+
+\PYG{c}{\PYGZsh{} Parametros da atmosfera}
+\PYG{n}{capa} \PYG{p}{=} \PYG{l+m+mi}{10}\PYG{p}{;} \PYG{c}{\PYGZsh{} Visibilidade (6km\PYGZlt{}capa\PYGZlt{}50km para ar limpo) [km]}
+\PYG{n}{ro} \PYG{p}{=} \PYG{l+m+mf}{1.3}\PYG{p}{;} \PYG{c}{\PYGZsh{} Tamanho da distribuição de particulas (1.3 para ar limpo)}
+
+\PYG{c}{\PYGZsh{} Constantes dos calculos (não mexa)}
+\PYG{n}{c} \PYG{p}{=} \PYG{l+m+mi}{299792458}\PYG{p}{;} \PYG{c}{\PYGZsh{} Velocidade da luz [m/s]}
+\PYG{n}{k} \PYG{p}{=} \PYG{l+m+mf}{1.38064852e\PYGZhy{}23}\PYG{p}{;} \PYG{c}{\PYGZsh{} Constante de Boltzmann}
+\PYG{n}{h} \PYG{p}{=} \PYG{l+m+mf}{6.62606957e\PYGZhy{}34}\PYG{p}{;} \PYG{c}{\PYGZsh{} Constante de Planck}
+
+\PYG{n}{sigma} \PYG{p}{=} \PYG{l+m+mf}{3.92}\PYG{p}{;} \PYG{c}{\PYGZsh{} adimensional}
+\PYG{n}{qui} \PYG{p}{=} \PYG{l+m+mi}{550}\PYG{p}{;} \PYG{c}{\PYGZsh{} [nm]}
+
+\PYG{c}{\PYGZsh{} Eficiencia da tranmissão}
+\PYG{n}{n\PYGZus{}tra} \PYG{p}{=} \PYG{p}{[];}
+\PYG{k}{for} \PYG{n}{i} \PYG{p}{=} \PYG{n}{w}
+  \PYG{n}{alfa} \PYG{p}{=} \PYG{p}{(}\PYG{n}{sigma}\PYG{o}{/}\PYG{n}{capa}\PYG{p}{)}\PYG{o}{*}\PYG{p}{((}\PYG{n}{i}\PYG{o}{/}\PYG{n}{qui}\PYG{p}{)}\PYG{o}{**}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{n}{ro}\PYG{p}{));}
+  \PYG{n}{n\PYGZus{}tra} \PYG{p}{=} \PYG{p}{[}\PYG{n}{n\PYGZus{}tra}\PYG{p}{;} \PYG{n+nb}{exp}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{n}{alfa}\PYG{o}{*}\PYG{n}{d}\PYG{o}{/}\PYG{l+m+mi}{1000}\PYG{p}{)];}
+\PYG{k}{endfor}
+
+
+\PYG{n+nb}{mesh}\PYG{p}{(}\PYG{n}{d}\PYG{p}{,} \PYG{n}{w}\PYG{p}{,} \PYG{n}{n\PYGZus{}tra}\PYG{p}{);}
+\PYG{n+nb}{axis}\PYG{p}{([}\PYG{l+m+mi}{0} \PYG{l+m+mi}{100} \PYG{l+m+mi}{0} \PYG{l+m+mi}{100000} \PYG{l+m+mi}{0} \PYG{l+m+mi}{1}\PYG{p}{]);}
+\PYG{n+nb}{xlabel}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}Distancia [m]\PYGZsq{}}\PYG{p}{);}
+\PYG{n+nb}{ylabel}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}Comprimento de onda [nm]\PYGZsq{}}\PYG{p}{);}
+\PYG{n+nb}{zlabel}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}Eficiencia [\PYGZpc{}]\PYGZsq{}}\PYG{p}{);}
+
+\PYG{c}{\PYGZsh{}plot(d, n\PYGZus{}tra);}
+\PYG{n+nb}{grid}\PYG{p}{;}
+\end{Verbatim}
