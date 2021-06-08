@@ -5,7 +5,7 @@ clc;
 dp = 136.7; # mW/mm2
 
 # Parametros do laser
-w = 0:100:100000; # Comprimento de onda [nm]
+w = 808; # Comprimento de onda [nm]
 p_l = 25; # Potencia de saída do laser [w]
 v_i = 8; # Tensão de entrada [V]
 i_i = 9.5; # Corrente [A]
@@ -34,14 +34,20 @@ for i = w
   alfa = (sigma/capa)*((i/qui)**(-ro));
   n_tra = [n_tra; exp(-alfa*d/1000)];
 endfor
+#mesh(d, w, n_tra);
+#axis([0 100 0 100000 0 1]);
+#xlabel('Distancia [m]');
+#ylabel('Comprimento de onda [nm]');
+#zlabel('Eficiencia [%]');
 
+a_l = p_l/dp;
+r = (a_l/pi)**0.5;
 
-mesh(d, w, n_tra);
-axis([0 100 0 100000 0 1]);
-xlabel('Distancia [m]');
-ylabel('Comprimento de onda [nm]');
-zlabel('Eficiencia [%]');
+ee = n_tra * 0.5 * p_l;
 
-#plot(d, n_tra);
+figure(1);
+plot(d, ee);
+figure(2);
+plot(d, n_tra);
 grid;
 
