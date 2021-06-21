@@ -1,0 +1,2654 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.6.2)  8 JUN 2021 22:30
+entering extended mode
+**./monografia.tex
+(monografia.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-05-27>
+(C:\Program Files\MiKTeX\tex/latex/fei\fei.cls
+Document Class: fei 2021/05/26 4.10.2 Modelo da FEI
+(C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Program Files\MiKTeX\tex/latex/newtx\newtxtext.sty
+Package: newtxtext 2021/05/24 v1.653
+
+`newtxtext' v1.653, 2021/05/24 Text macros taking advantage of TeX-Gyre Termes 
+fonts (msharpe) (C:\Program Files\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+\ntx@fs=\dimen138
+
+(C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+)
+\XKV@depth=\count181
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count182
+)
+(C:\Program Files\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Program Files\MiKTeX\tex/generic/xstring\xstring.tex
+\integerpart=\count183
+\decimalpart=\count184
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
+ 112.
+
+(C:\Program Files\MiKTeX\tex/latex/newtx\t1ntxtlf.fd
+File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 112.
+)
+(C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 75.
+)
+\ntxt@cntz=\count185
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 320.
+)
+(C:\Program Files\MiKTeX\tex/latex/memoir\memoir.cls
+Document Class: memoir 2021/03/23 v3.7o configurable book, report, article docu
+ment class
+\onelineskip=\skip47
+\lxvchars=\skip48
+\xlvchars=\skip49
+\@memcnta=\count186
+\c@@memmarkcntra=\count187
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+\stockheight=\skip50
+\stockwidth=\skip51
+\trimtop=\skip52
+\trimedge=\skip53
+
+(C:\Program Files\MiKTeX\tex/latex/memoir\mem12.clo
+File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 38.
+)
+\binding=\skip54
+\spinemargin=\skip55
+\foremargin=\skip56
+\uppermargin=\skip57
+\lowermargin=\skip58
+\headdrop=\skip59
+\normalrulethickness=\skip60
+\mem@maxheadheight=\skip61
+\mem@maxfootheight=\skip62
+\headwidth=\skip63
+\c@storedpagenumber=\count188
+\memPD=\dimen139
+\m@mabparskip=\skip64
+\thanksmarkwidth=\skip65
+\thanksmarksep=\skip66
+\droptitle=\skip67
+\c@book=\count189
+\c@part=\count190
+\c@chapter=\count191
+\c@section=\count192
+\c@subsection=\count193
+\c@subsubsection=\count194
+\c@paragraph=\count195
+\c@subparagraph=\count196
+\beforechapskip=\skip68
+\midchapskip=\skip69
+\afterchapskip=\skip70
+\chapindent=\skip71
+\bottomsectionskip=\skip72
+\secindent=\skip73
+\beforesecskip=\skip74
+\aftersecskip=\skip75
+\subsecindent=\skip76
+\beforesubsecskip=\skip77
+\aftersubsecskip=\skip78
+\subsubsecindent=\skip79
+\beforesubsubsecskip=\skip80
+\aftersubsubsecskip=\skip81
+\paraindent=\skip82
+\beforeparaskip=\skip83
+\afterparaskip=\skip84
+\subparaindent=\skip85
+\beforesubparaskip=\skip86
+\aftersubparaskip=\skip87
+\pfbreakskip=\skip88
+\c@@ppsavesec=\count197
+\c@@ppsaveapp=\count198
+\ragrparindent=\dimen140
+\everylistparindent=\dimen141
+\parsepi=\skip89
+\topsepi=\skip90
+\itemsepi=\skip91
+\parsepii=\skip92
+\topsepii=\skip93
+\topsepiii=\skip94
+\itemsepii=\skip95
+\itemsepiii=\skip96
+\partopsepii=\skip97
+\partopsepiii=\skip98
+\m@msavetopsep=\skip99
+\m@msavepartopsep=\skip100
+\@enLab=\toks18
+\abstitleskip=\skip101
+\absleftindent=\skip102
+\abs@leftindent=\dimen142
+\absrightindent=\skip103
+\absparindent=\skip104
+\absparsep=\skip105
+\c@vslineno=\count199
+\c@poemline=\count266
+\c@modulo@vs=\count267
+\c@memfvsline=\count268
+\vleftskip=\skip106
+\vrightskip=\skip107
+\stanzaskip=\skip108
+\versewidth=\skip109
+\vgap=\skip110
+\vindent=\skip111
+\vleftmargin=\dimen143
+\c@verse=\count269
+\c@chrsinstr=\count270
+\beforepoemtitleskip=\skip112
+\afterpoemtitleskip=\skip113
+\c@poem=\count271
+\beforePoemTitleskip=\skip114
+\midPoemTitleskip=\skip115
+\afterPoemTitleskip=\skip116
+
+(C:\Program Files\MiKTeX\tex/latex/latex-tools\array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen144
+\ar@mcellbox=\box47
+\extrarowheight=\dimen145
+\NC@list=\toks19
+\extratabsurround=\skip117
+\backup@length=\skip118
+\ar@cellbox=\box48
+)
+(C:\Program Files\MiKTeX\tex/latex/latex-tools\dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/latex-tools\delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/latex-tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen146
+\TX@old@table=\dimen147
+\TX@old@col=\dimen148
+\TX@target=\dimen149
+\TX@delta=\dimen150
+\TX@cols=\count272
+\TX@ftn=\toks20
+)
+\heavyrulewidth=\dimen151
+\lightrulewidth=\dimen152
+\cmidrulewidth=\dimen153
+\belowrulesep=\dimen154
+\belowbottomsep=\dimen155
+\aboverulesep=\dimen156
+\abovetopsep=\dimen157
+\cmidrulesep=\dimen158
+\cmidrulekern=\dimen159
+\defaultaddspace=\dimen160
+\@cmidla=\count273
+\@cmidlb=\count274
+\@aboverulesep=\dimen161
+\@belowrulesep=\dimen162
+\@thisruleclass=\count275
+\@lastruleclass=\count276
+\@thisrulewidth=\dimen163
+\ctableftskip=\skip119
+\ctabrightskip=\skip120
+\abovecolumnspenalty=\count277
+\@linestogo=\count278
+\@cellstogo=\count279
+\@cellsincolumn=\count280
+\crtok=\toks21
+\@mincolumnwidth=\dimen164
+\c@newflo@tctr=\count281
+\mem@margin@floatbox=\box49
+\@contcwidth=\skip121
+\@contindw=\skip122
+\abovecaptionskip=\skip123
+\belowcaptionskip=\skip124
+\subfloattopskip=\skip125
+\subfloatcapskip=\skip126
+\subfloatcaptopadj=\skip127
+\subfloatbottomskip=\skip128
+\subfloatlabelskip=\skip129
+\subfloatcapmargin=\dimen165
+\c@@contsubnum=\count282
+\m@mscap@capbox=\box50
+\m@mscap@fbox=\box51
+\sidecapsep=\dimen166
+\sidecapwidth=\dimen167
+\m@m@tempdima=\dimen168
+\m@mscapraise=\dimen169
+\sidecapraise=\dimen170
+\m@mscapmainwidth=\dimen171
+\m@mscaplkern=\dimen172
+\beforeepigraphskip=\skip130
+\afterepigraphskip=\skip131
+\epigraphwidth=\skip132
+\epigraphrule=\skip133
+LaTeX Info: Redefining \em on input line 7650.
+LaTeX Info: Redefining \emph on input line 7658.
+\tocentryskip=\skip134
+\tocbaseline=\skip135
+\cftparskip=\skip136
+\cftbeforebookskip=\skip137
+\cftbookindent=\dimen173
+\cftbooknumwidth=\dimen174
+\cftbeforepartskip=\skip138
+\cftpartindent=\skip139
+\cftpartnumwidth=\skip140
+\cftbeforechapterskip=\skip141
+\cftchapterindent=\skip142
+\cftchapternumwidth=\skip143
+\cftbeforesectionskip=\skip144
+\cftsectionindent=\skip145
+\cftsectionnumwidth=\skip146
+\cftbeforesubsectionskip=\skip147
+\cftsubsectionindent=\skip148
+\cftsubsectionnumwidth=\skip149
+\cftbeforesubsubsectionskip=\skip150
+\cftsubsubsectionindent=\skip151
+\cftsubsubsectionnumwidth=\skip152
+\cftbeforeparagraphskip=\skip153
+\cftparagraphindent=\skip154
+\cftparagraphnumwidth=\skip155
+\cftbeforesubparagraphskip=\skip156
+\cftsubparagraphindent=\skip157
+\cftsubparagraphnumwidth=\skip158
+\prechapterprecisshift=\dimen175
+\c@maxsecnumdepth=\count283
+\bibindent=\dimen176
+\bibitemsep=\skip159
+\indexcolsep=\skip160
+\indexrule=\skip161
+\indexmarkstyle=\toks22
+\@indexbox=\insert252
+\glossarycolsep=\dimen177
+\glossaryrule=\dimen178
+\sideparvshift=\skip162
+\sideins=\insert251
+\sidebartopsep=\skip163
+\sidebarhsep=\skip164
+\sidebarvsep=\skip165
+\sidebarwidth=\skip166
+\footmarkwidth=\skip167
+\footmarksep=\skip168
+\footparindent=\skip169
+\footinsdim=\skip170
+\footinsv@r=\insert250
+\@mpfootinsv@r=\insert249
+\m@m@k=\count284
+\m@m@h=\dimen179
+\m@mipn@skip=\skip171
+\sidefootins=\insert248
+\sidefootadjust=\skip172
+\sidefootheight=\skip173
+\sidefoothsep=\skip174
+\sidefootvsep=\skip175
+\sidefootwidth=\skip176
+\m@mdownsf=\skip177
+\c@sidefootnote=\count285
+\sidefootmarkwidth=\skip178
+\sidefootmarksep=\skip179
+\sidefootparindent=\skip180
+\c@pagenote=\count286
+\c@pagenoteshadow=\count287
+\mem@pn@lastkern=\skip181
+\every@verbatim=\toks23
+\afterevery@verbatim=\toks24
+\verbatim@line=\toks25
+\tab@position=\count288
+\verbatim@in@stream=\read2
+\verbatimindent=\skip182
+\verbatim@out=\write3
+\bvboxsep=\skip183
+\c@memfbvline=\count289
+\c@bvlinectr=\count290
+\bvnumlength=\skip184
+\fb@frw=\dimen180
+\fb@frh=\dimen181
+\FrameRule=\dimen182
+\FrameSep=\dimen183
+\c@cp@cntr=\count291
+\c@ism@mctr=\count292
+\c@xsm@mctr=\count293
+\c@csm@mctr=\count294
+\c@ksm@mctr=\count295
+\c@xksm@mctr=\count296
+\c@cksm@mctr=\count297
+\c@msm@mctr=\count298
+\c@xmsm@mctr=\count299
+\c@cmsm@mctr=\count300
+\c@bsm@mctr=\count301
+\c@workm@mctr=\count302
+\c@sheetsequence=\count303
+\c@lastsheet=\count304
+\c@lastpage=\count305
+
+(C:\Program Files\MiKTeX\tex/latex/textcase\textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 13025.
+\c@figure=\count306
+\c@lofdepth=\count307
+\cftbeforefigureskip=\skip185
+\cftfigureindent=\skip186
+\cftfigurenumwidth=\skip187
+\c@table=\count308
+\c@lotdepth=\count309
+\cftbeforetableskip=\skip188
+\cfttableindent=\skip189
+\cfttablenumwidth=\skip190
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+)
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
+)
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(C:\Program Files\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2021/03/14 v2.8c Micro-typographical refinements (RS)
+\MT@toks=\toks28
+\MT@count=\count310
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen184
+LaTeX Info: Redefining \textmicrotypecontext on input line 1374.
+\MT@listname@count=\count311
+
+(C:\Program Files\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+File: microtype-pdftex.def 2021/03/14 v2.8c Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip191
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Program Files\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2021/03/14 v2.8c microtype main configuration file (RS)
+))
+(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/05/16 3.59 The Babel package
+
+(C:\Program Files\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2021/05/16 3.59 Babel common definitions
+\babel@savecnt=\count312
+\U@D=\dimen185
+\l@unhyphenated=\language79
+
+(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read3
+)
+\bbl@dirlevel=\count313
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Program Files\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+)
+(C:\Program Files\MiKTeX\tex/latex/babel-portuges\brazil.ldf
+Language: portuges 2021/02/04 v1.2s Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language56). Reported on input line 111.
+Package babel Info: Making " an active character on input line 143.
+))
+(C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+\csq@reset=\count314
+\csq@gtype=\count315
+\csq@glevel=\count316
+\csq@qlevel=\count317
+\csq@maxlvl=\count318
+\csq@tshold=\count319
+\csq@ltx@everypar=\toks29
+
+(C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+))
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 708pt by 455pt
+Spine and edge margins: 85.35826pt and 56.9055pt
+Upper and lower margins: 85.35826pt and 51.68858pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 42.9055pt
+Sidecapsep and sidecapwidth: 7pt and 42pt
+Sidebarhsep and sidebarwidth: 7pt and 42pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 42pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+(C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen186
+\captionmargin@=\dimen187
+\captionwidth=\dimen188
+\caption@tempdima=\dimen189
+\caption@indent=\dimen190
+\caption@parindent=\dimen191
+\caption@hangindent=\dimen192
+Package caption Info: memoir document class detected.
+
+(C:\Program Files\MiKTeX\tex/latex/caption\caption-memoir.sto
+File: caption-memoir.sto 2020/10/10 v2.1 Adaption of the caption package to the
+ memoir document class (AR)
+))
+\c@caption@flags=\count320
+\c@continuedfloat=\count321
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen193
+\caption@adjustwidth@linewidth=\dimen194
+)
+(C:\Program Files\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
+
+(C:\Program Files\MiKTeX\tex/latex/latex-tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count322
+\calc@Bcount=\count323
+\calc@Adimen=\dimen195
+\calc@Bdimen=\dimen196
+\calc@Askip=\skip192
+\calc@Bskip=\skip193
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count324
+\calc@Cskip=\skip194
+)
+(C:\Program Files\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip195
+
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks30
+\ex@=\dimen197
+))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen198
+)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count325
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count326
+\leftroot@=\count327
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count328
+\DOTSCASE@=\count329
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+\big@size=\dimen199
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count330
+\c@MaxMatrixCols=\count331
+\dotsspace@=\muskip16
+\c@parentequation=\count332
+\dspbrk@lvl=\count333
+\tag@help=\toks31
+\row@=\count334
+\column@=\count335
+\maxfields@=\count336
+\andhelp@=\toks32
+\eqnshift@=\dimen256
+\alignsep@=\dimen257
+\tagshift@=\dimen258
+\tagwidth@=\dimen259
+\totwidth@=\dimen260
+\lineht@=\dimen261
+\@envbody=\toks33
+\multlinegap=\skip196
+\multlinetaggap=\skip197
+\mathdisplay@stack=\toks34
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count337
+\l_MT_multwidth_dim=\dimen262
+\origjot=\skip198
+\l_MT_shortvdotswithinadjustabove_dim=\dimen263
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen264
+\l_MT_above_intertext_sep=\dimen265
+\l_MT_below_intertext_sep=\dimen266
+\l_MT_above_shortintertext_sep=\dimen267
+\l_MT_below_shortintertext_sep=\dimen268
+\xmathstrut@box=\box54
+\xmathstrut@dim=\dimen269
+)
+(C:\Program Files\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:\Program Files\MiKTeX\tex/latex/was\icomma.sty
+Package: icomma 2002/03/10 v2.0 (WaS)
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen270
+\Gin@req@width=\dimen271
+)
+(C:\Program Files\MiKTeX\tex/latex/morewrites\morewrites.sty
+(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-05-27 L3 programming layer (loader) 
+
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count338
+\l__pdf_internal_box=\box55
+))
+(C:\Program Files\MiKTeX\tex/latex/morewrites\primargs.sty
+Package: primargs 2018/12/29 Parsing arguments of primitives
+)
+Package: morewrites 2018/12/29 Always room for a new write
+\g__morewrites_later_int=\count339
+\l__morewrites_user_int=\count340
+\g__morewrites_iow=\write4
+\g__morewrites_ior=\read4
+\g__morewrites_group_level_int=\count341
+\g__morewrites_shipout_box=\box56
+\l__morewrites_collect_next_int=\count342
+\g__morewrites_alloc_write_int=\count343
+)
+(C:\Program Files\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count344
+\algocf@hangindent=\skip199
+
+(C:\Program Files\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count345
+LaTeX Info: Redefining \checkoddpage on input line 45.
+)
+(C:\Program Files\MiKTeX\tex/latex/latex-tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(C:\Program Files\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip256
+\skiplinenumber=\skip257
+\skiprule=\skip258
+\skiphlne=\skip259
+\skiptext=\skip260
+\skiplength=\skip261
+\algomargin=\skip262
+\skipalgocfslide=\skip263
+\algowidth=\dimen272
+\inoutsize=\dimen273
+\inoutindent=\dimen274
+\interspacetitleruled=\dimen275
+\interspacealgoruled=\dimen276
+\interspacetitleboxruled=\dimen277
+\algocf@ruledwidth=\skip264
+\algocf@inoutbox=\box57
+\algocf@inputbox=\box58
+\AlCapSkip=\skip265
+\AlCapHSkip=\skip266
+\algoskipindent=\skip267
+\algocf@nlbox=\box59
+\algocf@hangingbox=\box60
+\algocf@untilbox=\box61
+\algocf@skipuntil=\skip268
+\algocf@capbox=\box62
+\algocf@lcaptionbox=\skip269
+\algoheightruledefault=\skip270
+\algoheightrule=\skip271
+\algotitleheightruledefault=\skip272
+\algotitleheightrule=\skip273
+\c@algocfline=\count346
+\c@algocfproc=\count347
+\c@algocf=\count348
+\algocf@algoframe=\box63
+\algocf@algobox=\box64
+)
+(C:\Program Files\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks35
+\thm@bodyfont=\toks36
+\thm@headfont=\toks37
+\thm@notefont=\toks38
+\thm@headpunct=\toks39
+\thm@preskip=\skip274
+\thm@postskip=\skip275
+\thm@headsep=\skip276
+\dth@everypar=\toks40
+)
+(C:\Program Files\MiKTeX\tex/latex/thmtools\thmtools.sty
+Package: thmtools 2020/08/01 v0.72
+\thmt@toks=\toks41
+\c@thmt@dummyctr=\count349
+
+(C:\Program Files\MiKTeX\tex/latex/thmtools\thm-patch.sty
+Package: thm-patch 2020/08/01 v0.72
+
+(C:\Program Files\MiKTeX\tex/latex/thmtools\parseargs.sty
+Package: parseargs 2020/08/01 v0.72
+\@parsespec=\toks42
+))
+(C:\Program Files\MiKTeX\tex/latex/thmtools\thm-kv.sty
+Package: thm-kv 2020/08/01 v0.72
+Package thm-kv Info: Theorem names will be uppercased on input line 42.
+Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 158.
+)
+(C:\Program Files\MiKTeX\tex/latex/thmtools\thm-autoref.sty
+Package: thm-autoref 2020/08/01 v0.72
+
+(C:\Program Files\MiKTeX\tex/latex/thmtools\aliasctr.sty
+Package: aliasctr 2020/08/01 v0.72
+))
+(C:\Program Files\MiKTeX\tex/latex/thmtools\thm-listof.sty
+Package: thm-listof 2020/08/01 v0.72
+)
+(C:\Program Files\MiKTeX\tex/latex/thmtools\thm-restate.sty
+Package: thm-restate 2020/08/01 v0.72
+)
+(C:\Program Files\MiKTeX\tex/latex/thmtools\thm-amsthm.sty
+Package: thm-amsthm 2020/08/01 v0.72
+\thmt@style@headstyle=\toks43
+))
+\c@axioma=\count350
+\c@teorema=\count351
+\c@lema=\count352
+\c@hipotese=\count353
+\c@proposicao=\count354
+\c@conjectura=\count355
+\c@paradoxo=\count356
+\c@corolario=\count357
+\c@definicao=\count358
+\c@exemplo=\count359
+\c@desenho=\count360
+\cftbeforedesenhoskip=\skip277
+\cftdesenhoindent=\skip278
+\cftdesenhonumwidth=\skip279
+\c@esquema=\count361
+\cftbeforeesquemaskip=\skip280
+\cftesquemaindent=\skip281
+\cftesquemanumwidth=\skip282
+\c@fotografia=\count362
+\cftbeforefotografiaskip=\skip283
+\cftfotografiaindent=\skip284
+\cftfotografianumwidth=\skip285
+\c@grafico=\count363
+\cftbeforegraficoskip=\skip286
+\cftgraficoindent=\skip287
+\cftgraficonumwidth=\skip288
+\c@mapa=\count364
+\cftbeforemapaskip=\skip289
+\cftmapaindent=\skip290
+\cftmapanumwidth=\skip291
+\c@diagrama=\count365
+\cftbeforediagramaskip=\skip292
+\cftdiagramaindent=\skip293
+\cftdiagramanumwidth=\skip294
+\c@fluxograma=\count366
+\cftbeforefluxogramaskip=\skip295
+\cftfluxogramaindent=\skip296
+\cftfluxogramanumwidth=\skip297
+\c@organograma=\count367
+\cftbeforeorganogramaskip=\skip298
+\cftorganogramaindent=\skip299
+\cftorganogramanumwidth=\skip300
+\c@planta=\count368
+\cftbeforeplantaskip=\skip301
+\cftplantaindent=\skip302
+\cftplantanumwidth=\skip303
+\c@quadro=\count369
+\cftbeforequadroskip=\skip304
+\cftquadroindent=\skip305
+\cftquadronumwidth=\skip306
+\c@retrato=\count370
+\cftbeforeretratoskip=\skip307
+\cftretratoindent=\skip308
+\cftretratonumwidth=\skip309
+
+(C:\Program Files\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip310
+\enit@outerparindent=\dimen278
+\enit@toks=\toks44
+\enit@inbox=\box65
+\enit@count@id=\count371
+\enitdp@description=\count372
+)
+\tocnumwidth=\skip311
+
+(C:\Program Files\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
+
+(C:\Program Files\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen279
+\ESO@tempdimb=\dimen280
+
+(C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen281
+\AM@pageheight=\dimen282
+\AM@fboxrule=\dimen283
+
+(C:\Program Files\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count373
+\AM@pagebox=\box66
+\AM@global@opts=\toks45
+\AM@pagecnt=\count374
+\AM@toc@title=\toks46
+\c@AM@survey=\count375
+\AM@templatesizebox=\box67
+)
+(C:\Program Files\MiKTeX\tex/latex/imakeidx\imakeidx.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
+
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(C:\Program Files\MiKTeX\tex/latex/latex-tools\multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count376
+\mult@box=\box68
+\multicol@leftmargin=\dimen284
+\c@unbalance=\count377
+\c@collectmore=\count378
+\doublecol@number=\count379
+\multicoltolerance=\count380
+\multicolpretolerance=\count381
+\full@width=\dimen285
+\page@free=\dimen286
+\premulticols=\dimen287
+\postmulticols=\dimen288
+\multicolsep=\skip312
+\multicolbaselineskip=\skip313
+\partial@page=\box69
+\last@line=\box70
+\maxbalancingoverflow=\dimen289
+\mult@rightbox=\box71
+\mult@grightbox=\box72
+\mult@gfirstbox=\box73
+\mult@firstbox=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\c@minrows=\count382
+\c@columnbadness=\count383
+\c@finalcolumnbadness=\count384
+\last@try=\dimen290
+\multicolovershoot=\dimen291
+\multicolundershoot=\dimen292
+\mult@nat@firstbox=\box112
+\colbreak@box=\box113
+\mc@col@check@num=\count385
+))
+(C:\Program Files\MiKTeX\tex/latex/pdfx\pdfx.sty
+Package: pdfx 2019/02/27 v1.6.3 PDF/X and PDF/A support (CVR/HTH/RRM/PS)
+\pdfx@minorversion=\count386
+
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(C:\Program Files\MiKTeX\tex/latex/base\everyshi-ltx.sty
+Package: everyshi-ltx 2020/08/17 v1.0a Emulation of the original everyshi packa
+ge
+with kernel methods
+){C:/Users/gusta/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+(C:\Program Files\MiKTeX\tex/latex/pdfx\l8u-penc.def
+File: l8u-penc.def 2017/06/23 v0.8 Custom LaTeX file, for UTF8 encoded letters 
+and symbols
+LaTeX Info: Composite with undeclared \b in encoding L8U on input line 278.
+)
+\pdfxsafeforxmp@toks=\toks47
+\pdfx@tmptoks=\toks48
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+
+(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Program Files\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Program Files\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen293
+\Hy@linkcounter=\count387
+\Hy@pagecounter=\count388
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+)
+(C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count389
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `pdfa' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count390
+
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen294
+
+(C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count391
+\Field@Width=\dimen295
+\Fld@charsize=\dimen296
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode ON on input line 6103.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count392
+\c@Item=\count393
+\c@Hfootnote=\count394
+)
+(C:\Program Files\MiKTeX\tex/latex/memoir\memhfixc.sty
+Package: memhfixc 2019/10/24 v1.18 nameref/hyperref package fixes for memoir cl
+ass
+\c@memhycontfloat=\count395
+\c@Hpagenote=\count396
+)
+Package hyperref Info: Driver: hpdftex.
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+
+(C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count397
+\c@bookmark@seq@number=\count398
+
+(C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip314
+)
+Package hyperref Info: Option `unicode' set `true' on input line 1463.
+
+(C:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+Package hyperref Info: Option `psdextra' set `true' on input line 1465.
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc-greekbasic.def
+File: puenc-greekbasic.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (
+greek block) (HO)
+)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\psdextra.def
+File: psdextra.def 2021-02-27 v7.00k Hyperref: Additions to PDF string support
+)
+(C:\Program Files\MiKTeX\tex/generic/colorprofiles\colorprofiles.sty
+Package: colorprofiles 2018/11/01 v1.0.1 color profiles for PDF/X and PDF/A sup
+port
+
+(C:\Program Files\MiKTeX\tex/generic/colorprofiles\colorprofiles.tex))
+(C:\Program Files\MiKTeX\tex/generic/stringenc\se-pdfdoc.def
+File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
+)
+(C:\Program Files\MiKTeX\tex/latex/pdfx\AdobeColorProfiles.tex)
+(C:\Program Files\MiKTeX\tex/latex/pdfx\8bit.def
+File: 8bit.def 2008/03/30 v1.1d Input encoding file
+)
+** pdfx: Metadata file monografia.xmpdata read successfully.
+(monografia.xmpdata)<<sRGB.icc>>
+(C:\Program Files\MiKTeX\tex/latex/pdfx\8bit.def
+File: 8bit.def 2008/03/30 v1.1d Input encoding file
+)
+(C:\Program Files\MiKTeX\tex/latex/pdfx\8bit.def
+File: 8bit.def 2008/03/30 v1.1d Input encoding file
+)
+(C:\Program Files\MiKTeX\tex/generic/stringenc\se-utf8.def
+File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
+)
+(C:\Program Files\MiKTeX\tex/latex/pdfx\8bit.def
+File: 8bit.def 2008/03/30 v1.1d Input encoding file
+)
+Package hyperref Info: Option `unicode' set `true' on input line 2411.
+Package hyperref Info: Option `unicode' set `true' on input line 2412.
+
+(C:\Program Files\MiKTeX\tex/generic/pdftex\glyphtounicode.tex)
+(C:\Program Files\MiKTeX\tex/latex/pdfx\glyphtounicode-cmr.tex)
+(C:\Program Files\MiKTeX\tex/latex/pdfx\glyphtounicode-ntx.tex)
+(C:\Program Files\MiKTeX\tex/latex/xmpincl\xmpincl.sty
+Package: xmpincl 2008/05/10 v2.2 Include XMP data in pdflatex
+)
+(C:\Program Files\MiKTeX\tex/latex/pdfx\8bit.def
+File: 8bit.def 2008/03/30 v1.1d Input encoding file
+)
+Using XMP template file: pdfa.xmp
+\xmpinclWrite=\write19
+\xmpinclRead=\read5
+\openout4 = `pdfa.xmpi'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `pdfa.xmpi'.
+
+<<pdfa.xmpi>>)
+
+Package hyperref Warning: Option `pdftex' has already been used,
+(hyperref)                setting the option has no effect on input line 619.
+
+Package hyperref Info: Option `colorlinks' set `false' on input line 619.
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+(C:\Program Files\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count399
+
+(C:\Program Files\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count400
+\c@listtotal=\count401
+\c@listcount=\count402
+\c@liststart=\count403
+\c@liststop=\count404
+\c@citecount=\count405
+\c@citetotal=\count406
+\c@multicitecount=\count407
+\c@multicitetotal=\count408
+\c@instcount=\count409
+\c@maxnames=\count410
+\c@minnames=\count411
+\c@maxitems=\count412
+\c@minitems=\count413
+\c@citecounter=\count414
+\c@maxcitecounter=\count415
+\c@savedcitecounter=\count416
+\c@uniquelist=\count417
+\c@uniquename=\count418
+\c@refsection=\count419
+\c@refsegment=\count420
+\c@maxextratitle=\count421
+\c@maxextratitleyear=\count422
+\c@maxextraname=\count423
+\c@maxextradate=\count424
+\c@maxextraalpha=\count425
+\c@abbrvpenalty=\count426
+\c@highnamepenalty=\count427
+\c@lownamepenalty=\count428
+\c@maxparens=\count429
+\c@parenlevel=\count430
+\blx@tempcnta=\count431
+\blx@tempcntb=\count432
+\blx@tempcntc=\count433
+\blx@maxsection=\count434
+\blx@maxsegment@0=\count435
+\blx@notetype=\count436
+\blx@parenlevel@text=\count437
+\blx@parenlevel@foot=\count438
+\blx@sectionciteorder@0=\count439
+\blx@entrysetcounter=\count440
+\blx@biblioinstance=\count441
+\labelnumberwidth=\skip315
+\labelalphawidth=\skip316
+\biblabelsep=\skip317
+\bibnamesep=\skip318
+\bibinitsep=\skip319
+\bibparsep=\skip320
+\bibhang=\skip321
+\blx@bcfin=\read6
+\blx@bcfout=\write20
+\blx@langwohyphens=\language80
+\c@mincomprange=\count442
+\c@maxcomprange=\count443
+\c@mincompwidth=\count444
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'abnt-numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count445
+\c@savedafterword=\count446
+\c@annotator=\count447
+\c@savedannotator=\count448
+\c@author=\count449
+\c@savedauthor=\count450
+\c@bookauthor=\count451
+\c@savedbookauthor=\count452
+\c@commentator=\count453
+\c@savedcommentator=\count454
+\c@editor=\count455
+\c@savededitor=\count456
+\c@editora=\count457
+\c@savededitora=\count458
+\c@editorb=\count459
+\c@savededitorb=\count460
+\c@editorc=\count461
+\c@savededitorc=\count462
+\c@foreword=\count463
+\c@savedforeword=\count464
+\c@holder=\count465
+\c@savedholder=\count466
+\c@introduction=\count467
+\c@savedintroduction=\count468
+\c@namea=\count469
+\c@savednamea=\count470
+\c@nameb=\count471
+\c@savednameb=\count472
+\c@namec=\count473
+\c@savednamec=\count474
+\c@translator=\count475
+\c@savedtranslator=\count476
+\c@shortauthor=\count477
+\c@savedshortauthor=\count478
+\c@shorteditor=\count479
+\c@savedshorteditor=\count480
+\c@labelname=\count481
+\c@savedlabelname=\count482
+\c@institution=\count483
+\c@savedinstitution=\count484
+\c@lista=\count485
+\c@savedlista=\count486
+\c@listb=\count487
+\c@savedlistb=\count488
+\c@listc=\count489
+\c@savedlistc=\count490
+\c@listd=\count491
+\c@savedlistd=\count492
+\c@liste=\count493
+\c@savedliste=\count494
+\c@listf=\count495
+\c@savedlistf=\count496
+\c@location=\count497
+\c@savedlocation=\count498
+\c@organization=\count499
+\c@savedorganization=\count500
+\c@origlocation=\count501
+\c@savedoriglocation=\count502
+\c@origpublisher=\count503
+\c@savedorigpublisher=\count504
+\c@publisher=\count505
+\c@savedpublisher=\count506
+\c@language=\count507
+\c@savedlanguage=\count508
+\c@origlanguage=\count509
+\c@savedoriglanguage=\count510
+\c@pageref=\count511
+\c@savedpageref=\count512
+\shorthandwidth=\skip322
+\shortjournalwidth=\skip323
+\shortserieswidth=\skip324
+\shorttitlewidth=\skip325
+\shortauthorwidth=\skip326
+\shorteditorwidth=\skip327
+\locallabelnumberwidth=\skip328
+\locallabelalphawidth=\skip329
+\localshorthandwidth=\skip330
+\localshortjournalwidth=\skip331
+\localshortserieswidth=\skip332
+\localshorttitlewidth=\skip333
+\localshortauthorwidth=\skip334
+\localshorteditorwidth=\skip335
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count513
+\c@textcitetotal=\count514
+\c@textcitemaxnames=\count515
+\c@biburlbigbreakpenalty=\count516
+\c@biburlbreakpenalty=\count517
+\c@biburlnumpenalty=\count518
+\c@biburlucpenalty=\count519
+\c@biburllcpenalty=\count520
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count521
+)
+Package biblatex Info: Trying to load bibliography style 'abnt-numeric'...
+Package biblatex Info: ... file 'abnt-numeric.bbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex-abnt/bbx\abnt-numeric.bbx
+File: abnt-numeric.bbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load bibliography style 'abnt'...
+Package biblatex Info: ... file 'abnt.bbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex-abnt/bbx\abnt.bbx
+File: abnt.bbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+
+(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse-2020-10-01.sty
+(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex)))
+(C:\Program Files\MiKTeX\tex/latex/xpatch\xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count522
+\c@bbx:relatedtotal=\count523
+)))
+Package biblatex Info: Trying to load citation style 'abnt-numeric'...
+Package biblatex Info: ... file 'abnt-numeric.cbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex-abnt/cbx\abnt-numeric.cbx
+File: abnt-numeric.cbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+\c@cbx@tempcnta=\count524
+\c@cbx@tempcntb=\count525
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cbx@textcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\cbx@textcites'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)))
+(C:\Program Files\MiKTeX\tex/latex/latex-tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+
+LaTeX Warning: File `monografia.xmpdata' already exists on the system.
+               Not generating it from this source.
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'brazil'.
+
+LaTeX Warning: Unused global option(s):
+    [numeric].
+
+(monografia.aux)
+\openout1 = `monografia.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+\c@mv@tabular=\count526
+\c@mv@boldtabular=\count527
+LaTeX Info: Redefining \microtypecontext on input line 24.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 24.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (C:\Program Files\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count528
+\scratchdimen=\dimen297
+\scratchbox=\box114
+\nofMPsegments=\count529
+\nofMParguments=\count530
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count531
+\MPscratchDim=\dimen298
+\MPnumerator=\count532
+\makeMPintoPDFobject=\count533
+\everyMPtoPDFconversion=\toks50
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+(C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package hyperref Info: Link coloring OFF on input line 24.
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count534
+)
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
+(monografia.out) (monografia.out)
+\@outlinefile=\write21
+\openout4 = `monografia.out'.
+
+Package biblatex Info: Trying to load language 'brazil' -> 'brazil-abnt'...
+Package biblatex Info: ... file 'brazil-abnt.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex-abnt/lbx\brazil-abnt.lbx
+File: brazil-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+
+
+Package biblatex Warning: File 'brazilian-abnt-abnt.lbx' not found!
+(biblatex)                Ignoring mapping 'brazilian-abnt' -> 'brazilian-abnt-
+abnt'.
+
+Package biblatex Info: Trying to load language 'brazilian-abnt'...
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+(C:\Program Files\MiKTeX\tex/latex/biblatex-abnt/lbx\brazilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian' -> 'brazilian-abnt'.
+..
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex-abnt/lbx\brazilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazilian.lbx
+File: brazilian.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)))
+Package biblatex Info: Trying to load language 'brazilian-abnt'...
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex-abnt/lbx\brazilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian' -> 'brazilian-abnt'.
+..
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex-abnt/lbx\brazilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazilian.lbx
+File: brazilian.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'brazil'...
+Package biblatex Info: ... file 'brazil.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazil.lbx
+File: brazil.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazilian.lbx
+File: brazilian.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)))
+Package biblatex Info: Trying to load language 'brazil'...
+Package biblatex Info: ... file 'brazil.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazil.lbx
+File: brazil.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'brazilian' -> 'brazilian-abnt'.
+..
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex-abnt/lbx\brazilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazilian.lbx
+File: brazilian.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'brazil'...
+Package biblatex Info: ... file 'brazil.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazil.lbx
+File: brazil.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazilian.lbx
+File: brazilian.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+))))))
+Package biblatex Info: Trying to load language 'english' -> 'english-abnt'...
+Package biblatex Info: ... file 'english-abnt.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex-abnt/lbx\english-abnt.lbx
+File: english-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'ascii' forced by
+(biblatex)             'safeinputenc' option.
+Package biblatex Info: Document encoding not detected as UTF8.
+(biblatex)             Setting 'casechanger=latex2e'.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-latex2e.sty
+Package: blx-case-latex2e 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+\openout4 = `monografia.bcf'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'monografia.bbl' found.
+
+(monografia.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                einstein
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                latexcompanion
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 26.
+\openout4 = `monografia.mw'.
+
+ [1
+
+] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+9.
+ (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(C:\Program Files\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+9.
+
+(C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+29.
+
+(C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+29.
+
+(C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 29.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 29.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 29.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 \end{folhaderosto}
+                       
+\openout4 = `monografia.mw'.
+
+ [1
+
+] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 24.88pt on input line 31.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.31 \fichacatalografica
+                        
+\openout4 = `monografia.mw'.
+
+ [1
+
+] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+ [2
+
+] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+ [3
+
+
+]
+(monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+ [4
+
+] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 42.
+\openout4 = `monografia.mw'.
+
+ [5
+
+
+] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+ [6
+
+
+] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+
+(monografia.lof)
+\openout4 = `monografia.mw'.
+
+ [7
+
+
+] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+ (monografia.lot)
+\openout4 = `monografia.mw'.
+
+ [8
+
+
+] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+
+(monografia.toc
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 12.0pt on input line 27.
+)
+\openout4 = `monografia.mw'.
+
+ [9
+
+
+] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+ [10
+
+
+] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+ [11] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+
+[12
+
+] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+ [13] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+ [14] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+<images//tabela_laser.png, id=147, 201.00093pt x 222.8325pt>
+File: images//tabela_laser.png Graphic file (type png)
+<use images//tabela_laser.png>
+Package pdftex.def Info: images//tabela_laser.png  used on input line 136.
+(pdftex.def)             Requested size: 201.00043pt x 222.83195pt.
+\openout4 = `monografia.mw'.
+
+ [15 <./images//tabela_laser.png>] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+<images//feixe_gaussiano.png, id=156, 357.58594pt x 207.77625pt>
+File: images//feixe_gaussiano.png Graphic file (type png)
+<use images//feixe_gaussiano.png>
+Package pdftex.def Info: images//feixe_gaussiano.png  used on input line 183.
+(pdftex.def)             Requested size: 357.58505pt x 207.77573pt.
+\openout4 = `monografia.mw'.
+
+ [16] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+<images//beam_optics.png, id=173, 426.84468pt x 182.93344pt>
+File: images//beam_optics.png Graphic file (type png)
+<use images//beam_optics.png>
+Package pdftex.def Info: images//beam_optics.png  used on input line 212.
+(pdftex.def)             Requested size: 426.84364pt x 182.93298pt.
+\openout4 = `monografia.mw'.
+
+ [17 <./images//feixe_gaussiano.png>] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+ [18 <./images//beam_optics.png>] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+
+[19
+
+
+] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\tf@lof=\write22
+\openout4 = `monografia.lof'.
+
+\tf@lot=\write23
+\openout4 = `monografia.lot'.
+
+\tf@toc=\write24
+\openout4 = `monografia.toc'.
+
+ (monografia.aux
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+)
+\openout4 = `monografia.out'.
+
+Package rerunfilecheck Info: File `monografia.out' has not changed.
+(rerunfilecheck)             Checksum: 49EEC617B21ACC087AD5E58EF28B274D;863.
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.bcf'.
+
+Package logreq Info: Writing requests to 'monografia.run.xml'.
+\openout1 = `monografia.run.xml'.
+
+\openout4 = `monografia.lof'.
+
+\openout4 = `monografia.lot'.
+
+\openout4 = `monografia.toc'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 33438 strings out of 479081
+ 550242 string characters out of 2862516
+ 1679205 words of memory out of 3000000
+ 50404 multiletter control sequences out of 15000+600000
+ 438260 words of font info for 92 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 92i,13n,131p,1226b,4236s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/M
+iKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips
+/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Pro
+gram Files/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<C:/Program Files/MiKTeX
+/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/l
+m/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/
+type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.
+pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/
+MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Program Files/MiKTeX/fonts/type1/p
+ublic/newtx/ztmbi.pfb><C:/Program Files/MiKTeX/fonts/type1/public/newtx/ztmr.pf
+b>
+Output written on monografia.pdf (21 pages, 395101 bytes).
+PDF statistics:
+ 260 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 16004 words of extra memory for PDF output out of 17280 (max. 10000000)
+
