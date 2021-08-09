@@ -1,4 +1,4 @@
-\documentclass{fei}
+\documentclass[numeric]{fei}
 \graphicspath{{images/}}
 \usepackage{indentfirst}
 \addbibresource{fontes.bib}
@@ -60,7 +60,7 @@ Compreender e aplicar o conceito da tecnologia LPT (Laser Power Transmission) a 
 
 \section{Justificativa}
 
-Portabilidade tem sido uma das grandes evoluções da tecnologia nos últimos 30 anos, principalmente em relação à celulares e notebooks, e mais recentemente em relação a tablets. Seguindo a evolução dos telefones fixos para os celulares e dos computadores desktop para os notebooks de última geração de apenas 1kg, nota-se que mobilidade tornou-se uma característica chave de nossas tecnologias [1].  Quando os primeiros celulares chegaram ao Brasil em 1990 eram apenas 667, já em 2010 passaram a ser 197,53 milhões de aparelhos [2], para chegarem à marca de 230 milhões em 2020 [3]. Os novos celulares, tablets e notebooks têm sido lançados com baterias mais duráveis e com circuitos cada vez mais energeticamente eficientes; porém ainda é necessário o carregamento da bateria destes dispositivos uma vez por dia. Outro ponto a ser considerado é a degradação notória das baterias, geralmente celulares, notebooks e tablets são usados diariamente, porém com o passar do anos fica evidente a degradação de suas baterias [4].
+Portabilidade tem sido uma das grandes evoluções da tecnologia nos últimos 30 anos, principalmente em relação à celulares e notebooks, e mais recentemente em relação a tablets. Seguindo a evolução dos telefones fixos para os celulares e dos computadores desktop para os notebooks de última geração de apenas 1kg, nota-se que mobilidade tornou-se uma característica chave de nossas tecnologias \cite{liu16}.  Quando os primeiros celulares chegaram ao Brasil em 1990 eram apenas 667, já em 2010 passaram a ser 197,53 milhões de aparelhos [2], para chegarem à marca de 230 milhões em 2020 [3]. Os novos celulares, tablets e notebooks têm sido lançados com baterias mais duráveis e com circuitos cada vez mais energeticamente eficientes; porém ainda é necessário o carregamento da bateria destes dispositivos uma vez por dia. Outro ponto a ser considerado é a degradação notória das baterias, geralmente celulares, notebooks e tablets são usados diariamente, porém com o passar do anos fica evidente a degradação de suas baterias [4].
 
 Nota-se, também a grande tendência do mundo wireless (sem fio), a grande maioria das marcas já estão oferecendo fones bluetooth e celulares com carregadores indutivos, porém estes têm de estar perto de uma tomada. O próximo passo da portabilidade desses aparelhos está relacionado completamente à forma como vamos carregar suas baterias. Portanto, a tecnologia LPT mostra-se como uma possível solução de wireless charging para esta questão. No mercado já existe um produto de wireless charging da empresa israelita Wi-Charge, criada em 2012; seus produtos são focados para aplicações de baixo potência, como celulares, torneiras elétricas automáticas e aparelhos de smart home [5].
 
@@ -97,7 +97,7 @@ Nas décadas seguintes, este instrumento passou a ser cada vez mais presente no 
 \subsection{Teoria}
 
 \par
-Segundo \textcite{sears} SEARS and ZEMANSKY (2016, p.255) sabe-se que o fóton é emitido quando um átomo em um estado excitado "cai" para um estado de energia inferior, sendo que esse estado dura alguns nanosegundos. Átomos e moléculas podem também absorver fótons, efetuando então uma transição de um nível energético inferior para um superior. Quanto mais alta a temperatura, maior a probabilidade de ocorrer colisões, sendo que estas provocam transições para níveis energéticos superiores.
+Segundo SEARS and ZEMANSKY (2016, p.255) sabe-se que o fóton é emitido quando um átomo em um estado excitado "cai" para um estado de energia inferior, sendo que esse estado dura alguns nanosegundos. Átomos e moléculas podem também absorver fótons, efetuando então uma transição de um nível energético inferior para um superior. Quanto mais alta a temperatura, maior a probabilidade de ocorrer colisões, sendo que estas provocam transições para níveis energéticos superiores.
 Como foi mencionado no contexto histórico, Albert Einstein, baseando-se na mecânica quântica, teorizou o princípio do funcionamento do raio laser, a partir da emissão estimulada:
 
 \begin{quote}
@@ -244,6 +244,8 @@ I_0 = \frac{E_0^2}{2\eta}
 \end{equation}
 
 Sendo $\eta$ a impedância característica do meio, para o espaço livre, $\eta = \eta_0 = 377 \Omega$. Feixes ópticos são usualmente caracterizados pela potência $P$ então é útil escrever $I_0$ em temos de $P$ (SALEH; TEICH, 1991, p.85)
+
+\cite{latexcompanion} \cite{einstein}
 
 \printbibliography
 %\printindex
