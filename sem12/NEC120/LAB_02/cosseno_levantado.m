@@ -13,7 +13,18 @@ function [pout, t] = cosseno_levantado(Tb, r, k, fs)
 % r = 0.5;  % fator de decaimento (0<=r<=1) 
 % k = 5;  % duracao total de pout: 2*Tb*k = 10 segundos
 % fs = 50;  % fs = 50 Hz
-% [p, t] = pret_rz(Tb, 5, fs);
+% [p, t] = cosseno_levantado(Tb, r, k, fs);
 % plot(t, p); grid;
+
+if (r<0 || r>1)
+  error ('O valor de decaimento <r> deve ser tal que 0<=r<=1');
+endif
+
+t_f = Tb*k;
+t = [-t_f:1/fs:t_f];
+
+pout = (sinc(t./Tb)).*cos(r*pi.*t/Tb)./(1-(2*r.*t/Tb).**2);
+t_z = Tb/(2*r);
+pout(t==t_z | t==-t_z) = (pi/4)*sinc((1/(2*r))/Tb);
 
 endfunction
