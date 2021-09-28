@@ -23,6 +23,9 @@ endif
 t_f = Tb*k;
 t = [-t_f:1/fs:t_f];
 
+%Rb = 2*Tb
+%pout = sinc(pi*r.*t)*(cos(pi*r.*t)/())
+
 pout = (sinc(t./Tb)).*cos(r*pi.*t/Tb)./(1-(2*r.*t/Tb).**2);
 t_z = Tb/(2*r);
 pout(t==t_z | t==-t_z) = (pi/4)*sinc((1/(2*r))/Tb);
