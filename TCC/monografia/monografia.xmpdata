@@ -1,6 +1,6 @@
 \Title    {CARREGADOR WIRELESS POR LPT}
-\Author   {Jagunço 1\sep Zé ninguem 2\sep Fulano 3}
-\Copyright {Copyright \copyright\ 2020 "Douglas De Rizzo Meneghetti"}
-\Keywords {manual\sep latex\sep tipografia}
+\Author   {Emigdio Bertolo Rizardi \sep Fábio de Proença Edueta \sep Gustavo Ryuji Sanomia \sep Jaqueline Freitas Jardim \sep Jéssica Trajano Matheus Benedito \sep William Rodrigues Delmanto}
+\Copyright {Copyright \copyright\ 2021 "Douglas De Rizzo Meneghetti"}
+\Keywords {Carregador Wireless \sep LPT \sep Laser Power Transmission}
 \Language {pt-BR}
-\Subject  {Resumo vai aqui em uma única linha corrida.}
+\Subject  {De tomada a bateria, de desktop a notebook, de telefone a celular, a palavra portabilidade vem ganhando cada vez mais força no cotidiano das pessoas. Sob essa perspectiva, a energia elétrica sem fio (wireless) chama cada vez mais atenção de pesquisadores e empresas ao redor do mundo, de modo a permitir ainda mais conforto no momento do carregamento destes dispositivos, sem a necessidade da utilização de cabos. O objetivo central do trabalho é abordar, analisar e desenvolver sobre o tema do carregador wireless, focando especialmente na tecnologia LPT (Laser Power Transmission), bem como o impacto desse modelo nos indivíduos, nas organizações e na sociedade como um todo. Propõe-se, assim, apresentar um produto transmissor e receptor de energia via LPT ressaltando suas limitações, diferenciações e singularidades deste método de carregamento a distância.}

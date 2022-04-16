@@ -63,15 +63,18 @@
   <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <dc:format>application/pdf</dc:format>
    <dc:title><rdf:Alt><rdf:li xml:lang="x-default">CARREGADOR WIRELESS POR LPT</rdf:li></rdf:Alt></dc:title>
-   <dc:creator><rdf:Seq><rdf:li>Jagunço 1</rdf:li>
-     <rdf:li>Zé ninguem 2</rdf:li>
-     <rdf:li>Fulano 3</rdf:li></rdf:Seq></dc:creator>
+   <dc:creator><rdf:Seq><rdf:li>Emigdio Bertolo Rizardi </rdf:li>
+     <rdf:li>Fábio de Proença Edueta </rdf:li>
+     <rdf:li>Gustavo Ryuji Sanomia </rdf:li>
+     <rdf:li>Jaqueline Freitas Jardim </rdf:li>
+     <rdf:li>Jéssica Trajano Matheus Benedito </rdf:li>
+     <rdf:li>William Rodrigues Delmanto</rdf:li></rdf:Seq></dc:creator>
    <dc:language><rdf:Bag><rdf:li>pt-BR</rdf:li></rdf:Bag></dc:language>
-   <dc:rights><rdf:Alt><rdf:li xml:lang="x-default">Copyright © 2020 "Douglas De Rizzo Meneghetti"</rdf:li></rdf:Alt></dc:rights>
-   <dc:description><rdf:Alt><rdf:li xml:lang="x-default">Resumo vai aqui em uma única linha corrida.</rdf:li></rdf:Alt></dc:description>
-   <dc:subject><rdf:Bag><rdf:li>manual</rdf:li>
-     <rdf:li>latex</rdf:li>
-     <rdf:li>tipografia</rdf:li></rdf:Bag></dc:subject>
+   <dc:rights><rdf:Alt><rdf:li xml:lang="x-default">Copyright © 2021 "Douglas De Rizzo Meneghetti"</rdf:li></rdf:Alt></dc:rights>
+   <dc:description><rdf:Alt><rdf:li xml:lang="x-default">De tomada a bateria, de desktop a notebook, de telefone a celular, a palavra portabilidade vem ganhando cada vez mais força no cotidiano das pessoas. Sob essa perspectiva, a energia elétrica sem fio (wireless) chama cada vez mais atenção de pesquisadores e empresas ao redor do mundo, de modo a permitir ainda mais conforto no momento do carregamento destes dispositivos, sem a necessidade da utilização de cabos. O objetivo central do trabalho é abordar, analisar e desenvolver sobre o tema do carregador wireless, focando especialmente na tecnologia LPT (Laser Power Transmission), bem como o impacto desse modelo nos indivíduos, nas organizações e na sociedade como um todo. Propõe-se, assim, apresentar um produto transmissor e receptor de energia via LPT ressaltando suas limitações, diferenciações e singularidades deste método de carregamento a distância.</rdf:li></rdf:Alt></dc:description>
+   <dc:subject><rdf:Bag><rdf:li>Carregador Wireless </rdf:li>
+     <rdf:li>LPT </rdf:li>
+     <rdf:li>Laser Power Transmission</rdf:li></rdf:Bag></dc:subject>
   </rdf:Description>
   <rdf:Description rdf:about="" xmlns:prism="http://prismstandard.org/namespaces/basic/2.2/">
   </rdf:Description>
@@ -83,17 +86,17 @@
   </rdf:Description>
   <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/">
    <xmp:CreatorTool>LaTeX with hyperref</xmp:CreatorTool>
-   <xmp:ModifyDate>2021-06-08T22:30:45-03:00</xmp:ModifyDate>
-   <xmp:CreateDate>2021-06-08T22:30:45-03:00</xmp:CreateDate>
-   <xmp:MetadataDate>2021-06-08T22:30:45-03:00</xmp:MetadataDate>
+   <xmp:ModifyDate>2021-12-05T01:40:47-03:00</xmp:ModifyDate>
+   <xmp:CreateDate>2021-12-05T01:40:47-03:00</xmp:CreateDate>
+   <xmp:MetadataDate>2021-12-05T01:40:47-03:00</xmp:MetadataDate>
   </rdf:Description>
   <rdf:Description rdf:about="" xmlns:xmpRights = "http://ns.adobe.com/xap/1.0/rights/">
    <xmpRights:Marked>True</xmpRights:Marked>
-   <xmpRights:UsageTerms><rdf:Alt><rdf:li xml:lang="x-default">Copyright © 2020 "Douglas De Rizzo Meneghetti"</rdf:li></rdf:Alt></xmpRights:UsageTerms>
+   <xmpRights:UsageTerms><rdf:Alt><rdf:li xml:lang="x-default">Copyright © 2021 "Douglas De Rizzo Meneghetti"</rdf:li></rdf:Alt></xmpRights:UsageTerms>
   </rdf:Description>
   <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/">
    <xmpMM:DocumentID>uuid:2AA39FE2-658E-7D10-E9B0-D096AC75BFDD</xmpMM:DocumentID>
-   <xmpMM:InstanceID>uuid:2284784F-4A2B-F82F-FF56-B8C208F0D5DD</xmpMM:InstanceID>
+   <xmpMM:InstanceID>uuid:AE7B29D4-0824-282C-B748-D3247B5A0F6C</xmpMM:InstanceID>
   </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

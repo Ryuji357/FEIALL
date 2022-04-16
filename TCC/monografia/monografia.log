@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.6.2)  8 JUN 2021 22:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.6.2)  5 DEC 2021 01:40
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -1820,6 +1820,45 @@ File: biblatex.cfg
 (C:\Program Files\MiKTeX\tex/latex/latex-tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
+(C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip336
+\multirow@cntb=\count526
+\multirow@dima=\skip337
+\bigstrutjot=\dimen297
+)
+(C:\Program Files\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2021-11-18 v3.0.36 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen298
+\l__siunitx_angle_marker_box=\box114
+\l__siunitx_angle_unit_box=\box115
+\l__siunitx_compound_count_int=\count527
+
+(C:\Program Files\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2021/01/17 v1.10a internationalization of LaTeX2e package
+s (CN)
+)
+\l__siunitx_number_exponent_fixed_int=\count528
+\l__siunitx_number_min_decimal_int=\count529
+\l__siunitx_number_min_integer_int=\count530
+\l__siunitx_number_round_precision_int=\count531
+\l__siunitx_number_group_minimum_int=\count532
+\l__siunitx_table_tmp_box=\box116
+\l__siunitx_table_tmp_dim=\dimen299
+\l__siunitx_table_column_width_dim=\dimen300
+\l__siunitx_table_integer_box=\box117
+\l__siunitx_table_decimal_box=\box118
+\l__siunitx_table_before_box=\box119
+\l__siunitx_table_after_box=\box120
+\l__siunitx_table_before_dim=\dimen301
+\l__siunitx_table_carry_dim=\dimen302
+\l__siunitx_unit_tmp_int=\count533
+\l__siunitx_unit_position_int=\count534
+\l__siunitx_unit_total_int=\count535
+
+(C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2021-05-27 LaTeX2e option processing using LaTeX3 keys
+))
 
 LaTeX Warning: File `monografia.xmpdata' already exists on the system.
                Not generating it from this source.
@@ -1832,41 +1871,50 @@ Package csquotes Info: Redefining alias 'default' -> 'brazil'.
 LaTeX Warning: Unused global option(s):
     [numeric].
 
-(monografia.aux)
+(monografia.aux (cap/introducao/cap_introducao.aux)
+(cap/revisao_bibliografica/cap_revisao_bibliografica.aux)
+(cap/revisao_bibliografica/cap_subcap_pvcell.aux)
+(cap/revisao_bibliografica/subcap_wpt.aux)
+(cap/desenvolvimento/cap_desenvolvimento.aux
+
+LaTeX Warning: Label `eq:gaussiano' multiply defined.
+
+) (cap/simulacao/cap_simulacao.aux) (cap/conclusao/cap_conclusao.aux))
 \openout1 = `monografia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-\c@mv@tabular=\count526
-\c@mv@boldtabular=\count527
-LaTeX Info: Redefining \microtypecontext on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+\c@mv@tabular=\count536
+\c@mv@boldtabular=\count537
+LaTeX Info: Redefining \microtypecontext on input line 28.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 24.
+LaTeX Info: Redefining \showhyphens on input line 28.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (C:\Program Files\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+
+(C:\Program Files\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -1875,16 +1923,16 @@ Package caption Info: End \AtBeginDocument code.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count528
-\scratchdimen=\dimen297
-\scratchbox=\box114
-\nofMPsegments=\count529
-\nofMParguments=\count530
+\scratchcounter=\count538
+\scratchdimen=\dimen303
+\scratchbox=\box121
+\nofMPsegments=\count539
+\nofMParguments=\count540
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count531
-\MPscratchDim=\dimen298
-\MPnumerator=\count532
-\makeMPintoPDFobject=\count533
+\MPscratchCnt=\count541
+\MPscratchDim=\dimen304
+\MPnumerator=\count542
+\makeMPintoPDFobject=\count543
 \everyMPtoPDFconversion=\toks50
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1902,7 +1950,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 28.
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1913,14 +1961,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count534
+\c@section@level=\count544
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 24.
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 (monografia.out) (monografia.out)
 \@outlinefile=\write21
 \openout4 = `monografia.out'.
@@ -2051,26 +2099,29 @@ Package: blx-case-latex2e 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'monografia.bbl' found.
 
-(monografia.bbl
+(monografia.bbl)
+Package biblatex Info: Reference section=0 on input line 28.
+Package biblatex Info: Reference segment=0 on input line 28.
 
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                einstein
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                latexcompanion
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
+(C:\Program Files\MiKTeX\tex/latex/translations/dicts\translations-basic-dictio
+nary-brazil.trsl
+File: translations-basic-dictionary-brazil.trsl (brazil translation file `trans
+lations-basic-dictionary')
 )
-Package biblatex Info: Reference section=0 on input line 24.
-Package biblatex Info: Reference segment=0 on input line 24.
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `brazil'. on input line 28.
+
+(C:\Program Files\MiKTeX\tex/latex/translations/dicts\translations-basic-dictio
+nary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 28.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 26.
+(Font)              scaled to size 12.0pt on input line 30.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 12.0pt on input line 30.
 \openout4 = `monografia.mw'.
 
  [1
@@ -2078,44 +2129,45 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 ] (monografia.mw)
 \openout4 = `monografia.mw'.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-9.
- (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
+3.
+
+(C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (C:\Program Files\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-9.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+3.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-29.
+33.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-29.
+33.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 29.
+(Font)              <12> on input line 33.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 29.
+(Font)              <8> on input line 33.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 29.
+(Font)              <6> on input line 33.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 \end{folhaderosto}
+l.33 \end{folhaderosto}
                        
 \openout4 = `monografia.mw'.
 
@@ -2125,12 +2177,12 @@ l.29 \end{folhaderosto}
 \openout4 = `monografia.mw'.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 31.
+(Font)              scaled to size 24.88pt on input line 35.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 \fichacatalografica
+l.35 \fichacatalografica
                         
 \openout4 = `monografia.mw'.
 
@@ -2162,8 +2214,8 @@ l.31 \fichacatalografica
 ] (monografia.mw)
 \openout4 = `monografia.mw'.
 
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 42.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 47.
 \openout4 = `monografia.mw'.
 
  [5
@@ -2200,10 +2252,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 \openout4 = `monografia.mw'.
 
 
-(monografia.toc
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 12.0pt on input line 27.
-)
+(monografia.toc)
 \openout4 = `monografia.mw'.
 
  [9
@@ -2212,13 +2261,40 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
 ] (monografia.mw)
 \openout4 = `monografia.mw'.
 
+\openout2 = `./cap/introducao/cap_introducao.aux'.
+
+ (cap/introducao/cap_introducao.tex)
+\openout4 = `monografia.mw'.
+
+
+[10
+
+
+
+] (monografia.mw)
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
 
- [10
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout2 = `./cap/revisao_bibliografica/cap_revisao_bibliografica.aux'.
+
+ (cap/revisao_bibliografica/cap_revisao_bibliografica.tex
+\openout4 = `monografia.mw'.
+
+
+[11
+
+
 
 
 ] (monografia.mw)
@@ -2238,23 +2314,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
 
 \openout4 = `monografia.mw'.
 
- [11] (monografia.mw)
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-
-[12
-
-] (monografia.mw)
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
+ [12] (monografia.mw)
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
@@ -2266,51 +2326,23 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
  [13] (monografia.mw)
 \openout4 = `monografia.mw'.
 
-\openout4 = `monografia.mw'.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+05.
 
-\openout4 = `monografia.mw'.
-
+(C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 105.
 \openout4 = `monografia.mw'.
 
  [14] (monografia.mw)
 \openout4 = `monografia.mw'.
 
-<images//tabela_laser.png, id=147, 201.00093pt x 222.8325pt>
-File: images//tabela_laser.png Graphic file (type png)
-<use images//tabela_laser.png>
-Package pdftex.def Info: images//tabela_laser.png  used on input line 136.
-(pdftex.def)             Requested size: 201.00043pt x 222.83195pt.
-\openout4 = `monografia.mw'.
-
- [15 <./images//tabela_laser.png>] (monografia.mw)
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-<images//feixe_gaussiano.png, id=156, 357.58594pt x 207.77625pt>
-File: images//feixe_gaussiano.png Graphic file (type png)
-<use images//feixe_gaussiano.png>
-Package pdftex.def Info: images//feixe_gaussiano.png  used on input line 183.
-(pdftex.def)             Requested size: 357.58505pt x 207.77573pt.
-\openout4 = `monografia.mw'.
-
- [16] (monografia.mw)
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-<images//beam_optics.png, id=173, 426.84468pt x 182.93344pt>
-File: images//beam_optics.png Graphic file (type png)
-<use images//beam_optics.png>
-Package pdftex.def Info: images//beam_optics.png  used on input line 212.
-(pdftex.def)             Requested size: 426.84364pt x 182.93298pt.
-\openout4 = `monografia.mw'.
-
- [17 <./images//feixe_gaussiano.png>] (monografia.mw)
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
@@ -2321,15 +2353,47 @@ Package pdftex.def Info: images//beam_optics.png  used on input line 212.
 
 \openout4 = `monografia.mw'.
 
+ [15]
+(monografia.mw)
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
 
- [18 <./images//beam_optics.png>] (monografia.mw)
+<images/beam_optics.png, id=273, 426.84468pt x 112.92188pt>
+File: images/beam_optics.png Graphic file (type png)
+<use images/beam_optics.png>
+Package pdftex.def Info: images/beam_optics.png  used on input line 173.
+(pdftex.def)             Requested size: 426.84364pt x 112.92159pt.
+
+Overfull \hbox (15.69666pt too wide) in paragraph at lines 173--174
+ [][]\T1/ntxtlf/m/n/12 (-20) [scale=1] 
+ []
+
 \openout4 = `monografia.mw'.
 
+[16 <./images/beam_optics.png>] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+<images/angulo_divergencia.png, id=294, 416.30531pt x 167.87718pt>
+File: images/angulo_divergencia.png Graphic file (type png)
+<use images/angulo_divergencia.png>
+Package pdftex.def Info: images/angulo_divergencia.png  used on input line 223.
+
+(pdftex.def)             Requested size: 416.30429pt x 167.87677pt.
+
+Overfull \hbox (5.1573pt too wide) in paragraph at lines 223--224
+ [][]\T1/ntxtlf/m/n/12 (-20) [scale=1] 
+ []
+
+\openout4 = `monografia.mw'.
+
+[17] (monografia.mw)
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
@@ -2341,7 +2405,76 @@ Package pdftex.def Info: images//beam_optics.png  used on input line 212.
 \openout4 = `monografia.mw'.
 
 
-[19
+
+LaTeX Warning: Reference `espectro' on page 18 undefined on input line 240.
+
+<images/espectro.png, id=310, 426.84468pt x 43.66313pt>
+File: images/espectro.png Graphic file (type png)
+<use images/espectro.png>
+Package pdftex.def Info: images/espectro.png  used on input line 246.
+(pdftex.def)             Requested size: 426.84364pt x 43.66301pt.
+
+Overfull \hbox (15.69666pt too wide) in paragraph at lines 246--247
+ [][]\T1/ntxtlf/m/n/12 (-20) [scale=1] 
+ []
+
+
+LaTeX Warning: Reference `radiacao' on page 18 undefined on input line 252.
+
+<images/radiacao.png, id=311, 403.5075pt x 237.13594pt>
+File: images/radiacao.png Graphic file (type png)
+<use images/radiacao.png>
+Package pdftex.def Info: images/radiacao.png  used on input line 258.
+(pdftex.def)             Requested size: 403.50652pt x 237.13535pt.
+\openout4 = `monografia.mw'.
+
+[18 <./images/angulo_divergencia.png> <./images/espectro.png>] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+
+[19 <./images/radiacao.png>] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+)
+\openout4 = `monografia.mw'.
+
+ [20] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout2 = `./cap/revisao_bibliografica/cap_subcap_pvcell.aux'.
+
+
+No file ./cap/revisao_bibliografica/cap_subcap_pvcell.tex.
+\openout2 = `./cap/revisao_bibliografica/subcap_wpt.aux'.
+
+(cap/revisao_bibliografica/subcap_wpt.tex
+
+LaTeX Warning: Reference `retroreflector_cubo' on page 21 undefined on input li
+ne 17.
+
+<images/retroreflector_cubo.png, id=333, 234.8775pt x 129.48375pt>
+File: images/retroreflector_cubo.png Graphic file (type png)
+<use images/retroreflector_cubo.png>
+Package pdftex.def Info: images/retroreflector_cubo.png  used on input line 23.
+
+(pdftex.def)             Requested size: 234.87692pt x 129.48341pt.
+\openout4 = `monografia.mw'.
+
+[21
+
+
+
+
 
 
 ] (monografia.mw)
@@ -2350,6 +2483,156 @@ Package pdftex.def Info: images//beam_optics.png  used on input line 212.
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+<images/dlc.png, id=339, 319.94531pt x 131.74219pt>
+File: images/dlc.png Graphic file (type png)
+<use images/dlc.png>
+Package pdftex.def Info: images/dlc.png  used on input line 35.
+(pdftex.def)             Requested size: 319.94452pt x 131.74185pt.
+\openout4 = `monografia.mw'.
+
+ [22 <./images/retroreflector_cubo.png> <./images/dlc.png>] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+)
+\openout4 = `monografia.mw'.
+
+ [23] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout2 = `./cap/desenvolvimento/cap_desenvolvimento.aux'.
+
+
+(cap/desenvolvimento/cap_desenvolvimento.tex
+<images/etapas_dev.png, id=354, 188.20313pt x 374.90062pt>
+File: images/etapas_dev.png Graphic file (type png)
+<use images/etapas_dev.png>
+Package pdftex.def Info: images/etapas_dev.png  used on input line 11.
+(pdftex.def)             Requested size: 188.20265pt x 374.8997pt.
+\openout4 = `monografia.mw'.
+
+ [24
+
+
+
+
+ <./images/etapas_dev.png>]
+(monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+ [25] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+<images/modelo_1.png, id=371, 194.1654pt x 158.994pt>
+File: images/modelo_1.png Graphic file (type png)
+<use images/modelo_1.png>
+Package pdftex.def Info: images/modelo_1.png  used on input line 79.
+(pdftex.def)             Requested size: 194.16492pt x 158.9936pt.
+<images/modelo_2.png, id=373, 177.3024pt x 142.131pt>
+File: images/modelo_2.png Graphic file (type png)
+<use images/modelo_2.png>
+Package pdftex.def Info: images/modelo_2.png  used on input line 87.
+(pdftex.def)             Requested size: 177.30194pt x 142.13063pt.
+\openout4 = `monografia.mw'.
+
+ [26 <./images/modelo_1.png>]
+(monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+<images/resposta_espectral.png, id=383, 342.5297pt x 185.94469pt>
+File: images/resposta_espectral.png Graphic file (type png)
+<use images/resposta_espectral.png>
+Package pdftex.def Info: images/resposta_espectral.png  used on input line 110.
+
+(pdftex.def)             Requested size: 342.52885pt x 185.94421pt.
+)
+\openout4 = `monografia.mw'.
+
+ [27 <./images/modelo_2.png>] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+ [28 <./images/resposta_espectral.png>] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout2 = `./cap/simulacao/cap_simulacao.aux'.
+
+ (cap/simulacao/cap_simulacao.tex)
+\openout2 = `./cap/conclusao/cap_conclusao.aux'.
+
+
+(cap/conclusao/cap_conclusao.tex)
+\openout4 = `monografia.mw'.
+
+ [29
+
+
+
+
+
+
+
+] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+
+
+LaTeX Warning: Empty bibliography on input line 68.
 
 \tf@lof=\write22
 \openout4 = `monografia.lof'.
@@ -2360,7 +2643,7 @@ Package pdftex.def Info: images//beam_optics.png  used on input line 212.
 \tf@toc=\write24
 \openout4 = `monografia.toc'.
 
- (monografia.aux
+(monografia.aux
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
@@ -2445,6 +2728,49 @@ Package pdftex.def Info: images//beam_optics.png  used on input line 212.
 
 \openout4 = `monografia.mw'.
 
+ (cap/introducao/cap_introducao.aux
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+)
+(cap/revisao_bibliografica/cap_revisao_bibliografica.aux
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
@@ -2606,10 +2932,230 @@ Package pdftex.def Info: images//beam_optics.png  used on input line 212.
 \openout4 = `monografia.mw'.
 
 )
+(cap/revisao_bibliografica/cap_subcap_pvcell.aux)
+(cap/revisao_bibliografica/subcap_wpt.aux
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+)
+(cap/desenvolvimento/cap_desenvolvimento.aux
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+) (cap/simulacao/cap_simulacao.aux) (cap/conclusao/cap_conclusao.aux
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 \openout4 = `monografia.out'.
 
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 49EEC617B21ACC087AD5E58EF28B274D;863.
+(rerunfilecheck)             Checksum: 9E2ED188D0633CA6976CD0E87CA0BFC4;2273.
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
@@ -2627,28 +3173,32 @@ Package logreq Info: Writing requests to 'monografia.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33438 strings out of 479081
- 550242 string characters out of 2862516
- 1679205 words of memory out of 3000000
- 50404 multiletter control sequences out of 15000+600000
- 438260 words of font info for 92 fonts, out of 8000000 for 9000
+ 37364 strings out of 479081
+ 677918 string characters out of 2862516
+ 1779605 words of memory out of 3000000
+ 54128 multiletter control sequences out of 15000+600000
+ 443797 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 92i,13n,131p,1226b,4236s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/M
-iKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips
-/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Pro
-gram Files/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<C:/Program Files/MiKTeX
-/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/l
-m/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Progr
-am Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/
-type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.
-pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/
-MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Program Files/MiKTeX/fonts/type1/p
-ublic/newtx/ztmbi.pfb><C:/Program Files/MiKTeX/fonts/type1/public/newtx/ztmr.pf
-b>
-Output written on monografia.pdf (21 pages, 395101 bytes).
+ 92i,13n,131p,1683b,4236s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/M
+iKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips
+/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Pro
+gram Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/e
+nc/dvips/newtx/ntx-ec-tlf.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lm
+ex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Program 
+Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/ty
+pe1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pf
+b><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
+c/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
+gram Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX/font
+s/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/newtx/
+ztmb.pfb><C:/Program Files/MiKTeX/fonts/type1/public/newtx/ztmbi.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/newtx/ztmri.pfb>
+Output written on monografia.pdf (31 pages, 945612 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 16004 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 499 PDF objects out of 1000 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
+ 17191 words of extra memory for PDF output out of 17280 (max. 10000000)
 

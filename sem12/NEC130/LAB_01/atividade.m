@@ -20,7 +20,7 @@ B = X(:,:,3); %separa o canal B na matriz B
 figure(1, 'name', 'RGB', 'numbertitle', 'off');
 
 subplot(2,2,1);
-imshow(X);
+imagesc(X);
 title('Original');
 axis off;
 axis('equal');

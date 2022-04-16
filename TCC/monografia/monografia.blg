@@ -1,19 +1,10 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [1] Config.pm:314> INFO - Logfile is 'monografia.blg'
-[236] biber-MSWIN64:340> INFO - === 
-[309] Biber.pm:415> INFO - Reading 'monografia.bcf'
-[539] Biber.pm:952> INFO - Found 3 citekeys in bib section 0
-[583] Biber.pm:4340> INFO - Processing section 0
-[619] Biber.pm:4531> INFO - Looking for bibtex format file 'fontes.bib' for section 0
-[745] bibtex.pm:1689> INFO - LaTeX decoding ...
-[765] bibtex.pm:1494> INFO - Found BibTeX data source 'fontes.bib'
-[840] Utils.pm:395> WARN - I didn't find a database entry for 'latexcompanion' (section 0)
-[841] Utils.pm:395> WARN - I didn't find a database entry for 'einstein' (section 0)
-[853] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[853] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[854] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
-[854] Biber.pm:4174> INFO - No sort tailoring available for locale 'pt-BR'
-[856] bbl.pm:654> INFO - Writing 'monografia.bbl' with encoding 'ascii'
-[856] bbl.pm:655> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[861] bbl.pm:757> INFO - Output to monografia.bbl
-[861] Biber.pm:128> INFO - WARNINGS: 2
+[219] biber-MSWIN64:340> INFO - === 
+[294] Biber.pm:415> INFO - Reading 'monografia.bcf'
+[517] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[535] Utils.pm:395> WARN - The file 'monografia.bcf' does not contain any citations!
+[556] bbl.pm:654> INFO - Writing 'monografia.bbl' with encoding 'ascii'
+[556] bbl.pm:655> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[556] bbl.pm:757> INFO - Output to monografia.bbl
+[557] Biber.pm:128> INFO - WARNINGS: 1

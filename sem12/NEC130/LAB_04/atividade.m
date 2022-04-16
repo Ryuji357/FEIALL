@@ -1,6 +1,6 @@
 im = imread('image.jpg');
 
-N = 1.5;
+N = 10;
 
 % UpScaling método 1
 l_lin = size(im, 1)*N;

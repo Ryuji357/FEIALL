@@ -16,42 +16,5 @@
   {}
 \endgroup
 
-
-\refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{liu16}{article}{}
-      \name{author}{1}{}{%
-        {{hash=fa7cc7bcdb68555a34258cd17c47d193}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Qingwen},
-           giveni={Q\bibinitperiod}}}%
-      }
-      \strng{namehash}{fa7cc7bcdb68555a34258cd17c47d193}
-      \strng{fullhash}{fa7cc7bcdb68555a34258cd17c47d193}
-      \strng{bibnamehash}{fa7cc7bcdb68555a34258cd17c47d193}
-      \strng{authorbibnamehash}{fa7cc7bcdb68555a34258cd17c47d193}
-      \strng{authornamehash}{fa7cc7bcdb68555a34258cd17c47d193}
-      \strng{authorfullhash}{fa7cc7bcdb68555a34258cd17c47d193}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Vehicular Technology Magazine}
-      \field{number}{10}
-      \field{subtitle}{Will Distributed Laser Charging for Mobile Wireless Power Transfer Work?}
-      \field{title}{Charging Unplugged}
-      \field{volume}{11}
-      \field{year}{2016}
-      \field{pages}{36\bibrangedash 45}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1109/MVT.2016.2594944
-      \endverb
-    \endentry
-  \enddatalist
-  \missing{einstein}
-  \missing{latexcompanion}
-\endrefsection
 \endinput
 

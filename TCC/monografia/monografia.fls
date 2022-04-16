@@ -1645,11 +1645,82 @@ INPUT C:\Program Files\MiKTeX\tex\latex\latex-tools\indentfirst.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\latex-tools\indentfirst.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\latex-tools\indentfirst.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\latex-tools\indentfirst.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\latex-tools\array.sty
 INPUT .\monografia.xmpdata
 INPUT monografia.xmpdata
 INPUT .\monografia.aux
 INPUT monografia.aux
 INPUT monografia.aux
+INPUT .\cap\introducao\cap_introducao.aux
+INPUT cap\introducao\cap_introducao.aux
+INPUT cap\introducao\cap_introducao.aux
+INPUT .\cap\revisao_bibliografica\cap_revisao_bibliografica.aux
+INPUT cap\revisao_bibliografica\cap_revisao_bibliografica.aux
+INPUT cap\revisao_bibliografica\cap_revisao_bibliografica.aux
+INPUT .\cap\revisao_bibliografica\cap_subcap_pvcell.aux
+INPUT cap\revisao_bibliografica\cap_subcap_pvcell.aux
+INPUT cap\revisao_bibliografica\cap_subcap_pvcell.aux
+INPUT .\cap\revisao_bibliografica\subcap_wpt.aux
+INPUT cap\revisao_bibliografica\subcap_wpt.aux
+INPUT cap\revisao_bibliografica\subcap_wpt.aux
+INPUT .\cap\desenvolvimento\cap_desenvolvimento.aux
+INPUT cap\desenvolvimento\cap_desenvolvimento.aux
+INPUT cap\desenvolvimento\cap_desenvolvimento.aux
+INPUT .\cap\simulacao\cap_simulacao.aux
+INPUT cap\simulacao\cap_simulacao.aux
+INPUT cap\simulacao\cap_simulacao.aux
+INPUT .\cap\conclusao\cap_conclusao.aux
+INPUT cap\conclusao\cap_conclusao.aux
+INPUT cap\conclusao\cap_conclusao.aux
 OUTPUT monografia.aux
 INPUT C:\Program Files\MiKTeX\tex\latex\microtype\mt-ptm.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\microtype\mt-ptm.cfg
@@ -1834,7 +1905,17 @@ INPUT monografia.bbl
 INPUT .\monografia.bbl
 INPUT .\monografia.bbl
 INPUT monografia.bbl
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-brazil.trsl
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-brazil.trsl
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-brazil.trsl
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-brazil.trsl
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-t1.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-BoldItalic-tlf-t1.tfm
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
@@ -1884,7 +1965,7 @@ OUTPUT monografia.mw
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-t1.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-Italic-tlf-t1.tfm
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
@@ -1906,7 +1987,202 @@ OUTPUT monografia.mw
 INPUT .\monografia.toc
 INPUT monografia.toc
 INPUT monografia.toc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\newtx\ntx-BoldItalic-tlf-t1.tfm
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+INPUT .\cap\introducao\cap_introducao.tex
+INPUT .\cap\introducao\cap_introducao.tex
+INPUT .\cap\introducao\cap_introducao.tex
+OUTPUT .\cap\introducao\cap_introducao.aux
+INPUT .\cap\introducao\cap_introducao.tex
+INPUT .\cap\introducao\cap_introducao.tex
+INPUT .\cap\introducao\cap_introducao.tex
+INPUT cap\introducao\cap_introducao.tex
+INPUT .\cap\introducao\cap_introducao.tex
+INPUT cap\introducao\cap_introducao.tex
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+INPUT .\cap\revisao_bibliografica\cap_revisao_bibliografica.tex
+INPUT .\cap\revisao_bibliografica\cap_revisao_bibliografica.tex
+INPUT .\cap\revisao_bibliografica\cap_revisao_bibliografica.tex
+OUTPUT .\cap\revisao_bibliografica\cap_revisao_bibliografica.aux
+INPUT .\cap\revisao_bibliografica\cap_revisao_bibliografica.tex
+INPUT .\cap\revisao_bibliografica\cap_revisao_bibliografica.tex
+INPUT .\cap\revisao_bibliografica\cap_revisao_bibliografica.tex
+INPUT cap\revisao_bibliografica\cap_revisao_bibliografica.tex
+INPUT .\cap\revisao_bibliografica\cap_revisao_bibliografica.tex
+INPUT cap\revisao_bibliografica\cap_revisao_bibliografica.tex
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmtt10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+INPUT .\images\beam_optics.png
+INPUT images\beam_optics.png
+INPUT .\images\beam_optics.png
+INPUT .\images\beam_optics.png
+INPUT .\images\beam_optics.png
+INPUT .\images\beam_optics.png
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+INPUT .\images\angulo_divergencia.png
+INPUT images\angulo_divergencia.png
+INPUT .\images\angulo_divergencia.png
+INPUT .\images\angulo_divergencia.png
+INPUT .\images\angulo_divergencia.png
+INPUT .\images\angulo_divergencia.png
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+INPUT .\images\espectro.png
+INPUT images\espectro.png
+INPUT .\images\espectro.png
+INPUT .\images\espectro.png
+INPUT .\images\espectro.png
+INPUT .\images\espectro.png
+INPUT .\images\radiacao.png
+INPUT images\radiacao.png
+INPUT .\images\radiacao.png
+INPUT .\images\radiacao.png
+INPUT .\images\radiacao.png
+INPUT .\images\radiacao.png
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT .\cap\revisao_bibliografica\cap_subcap_pvcell.aux
+INPUT .\cap\revisao_bibliografica\subcap_wpt.tex
+INPUT .\cap\revisao_bibliografica\subcap_wpt.tex
+INPUT .\cap\revisao_bibliografica\subcap_wpt.tex
+OUTPUT .\cap\revisao_bibliografica\subcap_wpt.aux
+INPUT .\cap\revisao_bibliografica\subcap_wpt.tex
+INPUT .\cap\revisao_bibliografica\subcap_wpt.tex
+INPUT .\cap\revisao_bibliografica\subcap_wpt.tex
+INPUT cap\revisao_bibliografica\subcap_wpt.tex
+INPUT .\cap\revisao_bibliografica\subcap_wpt.tex
+INPUT cap\revisao_bibliografica\subcap_wpt.tex
+INPUT .\images\retroreflector_cubo.png
+INPUT images\retroreflector_cubo.png
+INPUT .\images\retroreflector_cubo.png
+INPUT .\images\retroreflector_cubo.png
+INPUT .\images\retroreflector_cubo.png
+INPUT .\images\retroreflector_cubo.png
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+INPUT .\images\dlc.png
+INPUT images\dlc.png
+INPUT .\images\dlc.png
+INPUT .\images\dlc.png
+INPUT .\images\dlc.png
+INPUT .\images\dlc.png
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+INPUT .\cap\desenvolvimento\cap_desenvolvimento.tex
+INPUT .\cap\desenvolvimento\cap_desenvolvimento.tex
+INPUT .\cap\desenvolvimento\cap_desenvolvimento.tex
+OUTPUT .\cap\desenvolvimento\cap_desenvolvimento.aux
+INPUT .\cap\desenvolvimento\cap_desenvolvimento.tex
+INPUT .\cap\desenvolvimento\cap_desenvolvimento.tex
+INPUT .\cap\desenvolvimento\cap_desenvolvimento.tex
+INPUT cap\desenvolvimento\cap_desenvolvimento.tex
+INPUT .\cap\desenvolvimento\cap_desenvolvimento.tex
+INPUT cap\desenvolvimento\cap_desenvolvimento.tex
+INPUT .\images\etapas_dev.png
+INPUT images\etapas_dev.png
+INPUT .\images\etapas_dev.png
+INPUT .\images\etapas_dev.png
+INPUT .\images\etapas_dev.png
+INPUT .\images\etapas_dev.png
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
@@ -1931,6 +2207,30 @@ OUTPUT monografia.mw
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
+INPUT .\images\modelo_1.png
+INPUT images\modelo_1.png
+INPUT .\images\modelo_1.png
+INPUT .\images\modelo_1.png
+INPUT .\images\modelo_1.png
+INPUT .\images\modelo_1.png
+INPUT .\images\modelo_2.png
+INPUT images\modelo_2.png
+INPUT .\images\modelo_2.png
+INPUT .\images\modelo_2.png
+INPUT .\images\modelo_2.png
+INPUT .\images\modelo_2.png
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+INPUT .\images\resposta_espectral.png
+INPUT images\resposta_espectral.png
+INPUT .\images\resposta_espectral.png
+INPUT .\images\resposta_espectral.png
+INPUT .\images\resposta_espectral.png
+INPUT .\images\resposta_espectral.png
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
@@ -1940,66 +2240,26 @@ OUTPUT monografia.mw
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
-OUTPUT monografia.mw
-INPUT monografia.mw
-OUTPUT monografia.mw
-OUTPUT monografia.mw
-INPUT monografia.mw
-OUTPUT monografia.mw
-OUTPUT monografia.mw
-INPUT monografia.mw
-OUTPUT monografia.mw
-INPUT .\images\\tabela_laser.png
-INPUT images\\tabela_laser.png
-INPUT .\images\\tabela_laser.png
-INPUT .\images\\tabela_laser.png
-INPUT .\images\\tabela_laser.png
-INPUT .\images\\tabela_laser.png
-OUTPUT monografia.mw
-INPUT monografia.mw
-OUTPUT monografia.mw
-OUTPUT monografia.mw
-INPUT monografia.mw
-OUTPUT monografia.mw
-INPUT .\images\\feixe_gaussiano.png
-INPUT images\\feixe_gaussiano.png
-INPUT .\images\\feixe_gaussiano.png
-INPUT .\images\\feixe_gaussiano.png
-INPUT .\images\\feixe_gaussiano.png
-INPUT .\images\\feixe_gaussiano.png
-OUTPUT monografia.mw
-INPUT monografia.mw
-OUTPUT monografia.mw
-OUTPUT monografia.mw
-INPUT monografia.mw
-OUTPUT monografia.mw
-INPUT .\images\\beam_optics.png
-INPUT images\\beam_optics.png
-INPUT .\images\\beam_optics.png
-INPUT .\images\\beam_optics.png
-INPUT .\images\\beam_optics.png
-INPUT .\images\\beam_optics.png
-OUTPUT monografia.mw
-INPUT monografia.mw
-OUTPUT monografia.mw
-OUTPUT monografia.mw
-INPUT monografia.mw
-OUTPUT monografia.mw
-OUTPUT monografia.mw
-INPUT monografia.mw
-OUTPUT monografia.mw
-OUTPUT monografia.mw
-INPUT monografia.mw
-OUTPUT monografia.mw
-OUTPUT monografia.mw
-INPUT monografia.mw
-OUTPUT monografia.mw
-OUTPUT monografia.mw
-INPUT monografia.mw
-OUTPUT monografia.mw
-OUTPUT monografia.mw
-INPUT monografia.mw
-OUTPUT monografia.mw
+INPUT .\cap\simulacao\cap_simulacao.tex
+INPUT .\cap\simulacao\cap_simulacao.tex
+INPUT .\cap\simulacao\cap_simulacao.tex
+OUTPUT .\cap\simulacao\cap_simulacao.aux
+INPUT .\cap\simulacao\cap_simulacao.tex
+INPUT .\cap\simulacao\cap_simulacao.tex
+INPUT .\cap\simulacao\cap_simulacao.tex
+INPUT cap\simulacao\cap_simulacao.tex
+INPUT .\cap\simulacao\cap_simulacao.tex
+INPUT cap\simulacao\cap_simulacao.tex
+INPUT .\cap\conclusao\cap_conclusao.tex
+INPUT .\cap\conclusao\cap_conclusao.tex
+INPUT .\cap\conclusao\cap_conclusao.tex
+OUTPUT .\cap\conclusao\cap_conclusao.aux
+INPUT .\cap\conclusao\cap_conclusao.tex
+INPUT .\cap\conclusao\cap_conclusao.tex
+INPUT .\cap\conclusao\cap_conclusao.tex
+INPUT cap\conclusao\cap_conclusao.tex
+INPUT .\cap\conclusao\cap_conclusao.tex
+INPUT cap\conclusao\cap_conclusao.tex
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
@@ -2073,6 +2333,42 @@ OUTPUT monografia.mw
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
+INPUT .\cap\introducao\cap_introducao.aux
+INPUT cap\introducao\cap_introducao.aux
+INPUT cap\introducao\cap_introducao.aux
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+INPUT .\cap\revisao_bibliografica\cap_revisao_bibliografica.aux
+INPUT cap\revisao_bibliografica\cap_revisao_bibliografica.aux
+INPUT cap\revisao_bibliografica\cap_revisao_bibliografica.aux
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
@@ -2175,6 +2471,177 @@ OUTPUT monografia.mw
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+INPUT .\cap\revisao_bibliografica\cap_subcap_pvcell.aux
+INPUT cap\revisao_bibliografica\cap_subcap_pvcell.aux
+INPUT cap\revisao_bibliografica\cap_subcap_pvcell.aux
+INPUT .\cap\revisao_bibliografica\subcap_wpt.aux
+INPUT cap\revisao_bibliografica\subcap_wpt.aux
+INPUT cap\revisao_bibliografica\subcap_wpt.aux
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+INPUT .\cap\desenvolvimento\cap_desenvolvimento.aux
+INPUT cap\desenvolvimento\cap_desenvolvimento.aux
+INPUT cap\desenvolvimento\cap_desenvolvimento.aux
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+INPUT .\cap\simulacao\cap_simulacao.aux
+INPUT cap\simulacao\cap_simulacao.aux
+INPUT cap\simulacao\cap_simulacao.aux
+INPUT .\cap\conclusao\cap_conclusao.aux
+INPUT cap\conclusao\cap_conclusao.aux
+INPUT cap\conclusao\cap_conclusao.aux
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
@@ -2205,17 +2672,24 @@ OUTPUT monografia.run.xml
 OUTPUT monografia.lof
 OUTPUT monografia.lot
 OUTPUT monografia.toc
-INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
-INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
-INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\newtx\ntx-ec-tlf.enc
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr8.pfb
@@ -2224,9 +2698,13 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmb.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmb.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmbi.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmbi.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmr.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmr.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmri.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\newtx\ztmri.pfb
